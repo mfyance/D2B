@@ -1,0 +1,352 @@
+#inicio,
+#inicio div,
+#inicio section,
+#inicio article,
+#inicio iframe,
+#inicio button{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;	
+}	
+section#cuerpo{
+	width: 100%;
+	background: #f7f7f7;
+}
+	.logged #cuerpo #first{
+		display: none !important;
+	}
+	.nologged #cuerpo #first{
+		width: 1000px;
+		max-height: 170px;
+		margin: 50px auto;
+		position: relative;
+		background: transparent;
+	}
+	.nologged .ad-slider .ad{
+		padding: 10px 0 !important;
+	}	
+		.nologged .ad-slider .candado{
+			width: 160px;
+			height: 160px;
+			border-radius: 160px;
+			display: block;
+			float: left;
+			background: #fff;
+			border: 1px solid #e6e2e9;			
+			text-align: center;
+			line-height: 80px;
+			margin: 0 40px 0 20px;
+			position: relative;
+		}
+		.nologged .ad-slider .bx-wrapper .bx-controls-direction a {
+			position: absolute;
+			top: 75px;
+			right: 90px;
+			width: 55px;
+			height: 55px;
+			text-indent: -9999px;
+			z-index: 5;
+			background: transparent;
+		}
+			.nologged .ad-slider .candado .user-candado{
+				position: absolute;
+				top: -10px;
+				right: -20px;
+				width: 60px;
+				height: 60px;
+				border-radius: 60px;
+				background: #cab7de;
+				text-align: center;
+			}
+				.nologged .ad-slider .candado .user-candado i{
+					position: absolute;
+					left: 9px;
+					top: 15px;
+				}
+
+		.nologged .ad-slider .titulo{
+			width: 780px;
+			height: 100%;
+			display: block;
+			float: left;
+			background: transparent;
+		}
+			.nologged .ad-slider .titulo h2{
+				font: 71px vevey;
+				color: #533b6a;
+				letter-spacing: 5px;
+				word-spacing: 4px;
+			}
+			.nologged .ad-slider .titulo h3{
+				font: 50px vevey;
+				color: #8c8c8c;
+				letter-spacing: 2px;
+				word-spacing: 3px;
+			}
+			.nologged .ad-slider div.arrow{
+				width: 54px;
+				height: 54px;
+				border-radius: 54px;
+				background: #fff;
+				border: 2px solid #634c78;
+				position: absolute;
+				right: 90px;
+				top: 60px;
+				box-shadow: 0px 3px 2px #D8D8D7;
+				z-index: 1;
+				cursor: pointer;
+			}
+				.nologged .ad-slider div.arrow span{
+					display: block;
+					width: 20px;
+					height: 20px;
+					margin-top: 14px;
+					margin-left: 9px;
+					border-top: 1px solid #634c78; 
+					border-right: 1px solid #634c78;
+					-webkit-transform: rotate(45deg);
+					-moz-transform: rotate(45deg);
+					-ms-transform: rotate(45deg);
+					-o-transform: rotate(45deg);
+					transform: rotate(45deg);
+				}		
+	.logged #cuerpo #second{
+		display: none !important;
+	}	
+	.nologged #cuerpo #second{
+		width: 720px;
+		height: auto;
+		background: transparent;		
+		margin: 0 auto;		
+	}
+		.nologged  #cuerpo #second #video{
+			width: 100%;
+			height: auto;
+		}
+			.nologged  #cuerpo #second #video iframe{
+				border: 3px solid #533b69;
+				width: 720px;
+				height: 430px;
+				box-shadow: 0px 3px 4px rgba(32, 32, 32, 0.75);
+			}
+		.nologged  #cuerpo #second .but{
+			margin-top: 5px;
+			width: 100%;
+			margin-bottom: 30px;
+		}
+			.nologged  #cuerpo #second a{
+				text-decoration: none;
+				display: block;
+				width: 310px;
+			}					
+			.nologged  #cuerpo #second .but a:first-child{
+				float: left;
+			}
+			.nologged  #cuerpo #second .but a:last-child{
+				float: right;
+			}		
+	#cuerpo #collection{
+		width: 100%;
+		max-width: 1300px;
+		margin: 60px auto;
+	}
+		#cuerpo #collection>.but>a>button{
+			margin: 0 auto;
+			width: 310px;
+		}
+		#cuerpo #collection #col-first{
+			width: 100%;
+			min-width: 1000px;
+			margin-bottom: 35px;
+		}
+			#cuerpo #collection #col-first>div:nth-child(1){
+				width: 37%;
+				display: block;
+				float: left;
+				border-top: 1px solid #533b6a;
+				margin-top: 28px;
+			}
+			#cuerpo #collection #col-first>div:nth-child(2){
+				width: 	26%;
+				background:transparent;
+				display: block;
+				float: left;	
+			}
+			#cuerpo #collection #col-first>div:nth-child(3){
+				width: 37%;	
+				display: block;
+				float: left;
+				border-top: 1px solid #533b6a;
+				margin-top: 28px;
+			}
+			#cuerpo #collection #col-first .titulo{
+				width: 100%;
+				background: transparent;
+				margin: 0 auto;
+			}
+				#cuerpo #collection #col-first .titulo h3{
+					text-align: center;
+					font: 51px vevey;
+					color: #533b6a;
+					text-transform: uppercase;	
+				}
+				#cuerpo #collection #col-first .titulo h4{
+					text-align: center;
+					font: 20px calibrili, calibri;
+					color: #666666;
+				}
+		#cuerpo #collection #col-second{
+			width: 100%;
+			padding-left: 20px;
+			/*min-width: 1024px;*/
+		}			
+			#cuerpo .photo{
+				width: 236px;
+				float: left;
+				margin-right:20px;
+				position: relative;
+			}						
+				#cuerpo .photo div.model{
+					display: block;
+					float: none;						
+					margin-top: 15px;
+					margin-bottom: 60px;
+					width: 100%;
+				}
+					#cuerpo .photo div.model h5,
+					#cuerpo .photo div.model h6{
+						font: 20px vevey;
+						color: #666666;
+						text-transform: uppercase;
+						text-align: center;
+						letter-spacing: 2px;
+						word-spacing: 2px;
+					}
+					#cuerpo .photo div.model span{
+							display: block;
+							width: 100%;
+							text-align: center;
+						height: 2px;
+						margin: 10px 0;
+						}
+						#cuerpo .photo div.model .autor{
+							width: 100%;
+							margin: 5px auto;
+							position: relative;							
+						}
+						#cuerpo .photo div.model .autor p{
+							color: #000;
+							font: 15px calibrili, calibri;
+							text-align: left;
+							display: block;
+							float: left;
+							width: 176px;
+						}
+						#cuerpo .photo div.model .autor div.ranking{  							
+							display: block;
+							float: left;
+						text-align: right;
+						width: 60px !important;
+						}
+							#cuerpo .photo div.model .autor div.ranking img{
+  							display: inline;
+  							width: 8px;	  							
+  						}
+  						#cuerpo .photo div.model .autor div.ranking a:hover img{
+  							display: inline;
+  							width: auto !important;
+  							-moz-transform:scale(0,0) !important;
+						   	-webkit-transform:scale(0,0) !important;
+						   	-o-transform:scale(0,0) !important;
+						   	-ms-transform:scale(0,0) !important;
+						   	transform:scale(0,0) !important;
+  						}	  					
+  					
+  				/*en seasson*/
+  				#cuerpo .photo div.new{
+					position: absolute;
+					top: -5px;
+					z-index: 12;
+					left: -4px;	
+				}
+	  	#cuerpo #collection>.but{
+			width: 100%;
+			text-align: center;
+	  	}
+	  		#cuerpo #collection>.but button{
+	  			padding-right: 55px;
+				padding-left: 55px;
+	  		}
+
+	#cuerpo #seasson{
+		width: 100%;
+		max-width: 1300px;
+		margin: 0px auto;
+	}
+		#cuerpo #seasson #sea-first{
+			width: 100%;
+			min-width: 1000px;
+			margin-bottom: 35px;
+			margin: 10px 0 40px 0;
+		}
+			#cuerpo #seasson #sea-first>div:nth-child(1){
+				width: 37%;
+				display: block;
+				float: left;
+				border-top: 1px solid #533b6a;
+				margin-top: 28px;
+			}
+			#cuerpo #seasson #sea-first>div:nth-child(2){
+				width: 26%;
+				background: transparent;
+				display: block;
+				float: left;	
+			}
+			#cuerpo #seasson #sea-first>div:nth-child(3){
+				width: 37%;	
+				display: block;
+				float: left;
+				border-top: 1px solid #533b6a;
+				margin-top: 28px;
+			}
+			#cuerpo #seasson #sea-first .titulo{
+				width: 100%;
+				background: transparent;
+				margin: 0 auto;
+			}
+				#cuerpo #seasson #sea-first .titulo h3{
+					text-align: center;
+					font: 51px vevey;
+					color: #533b6a;
+					text-transform: uppercase;	
+				}
+		#cuerpo #seasson #sea-second{
+			width: 100%;
+			padding-left: 20px;
+			/*min-width: 1024px;*/
+		}	
+			#cuerpo #sea-second .photo div.model {
+				margin-bottom: 35px !important;
+			}
+	
+
+/*Responsive*/
+@media only screen and (max-width : 1024px){
+	#cuerpo #collection #col-second {
+		padding-left: 10px;
+	}
+	#cuerpo #seasson #sea-second {
+		padding-left: 10px;
+	}
+		#cuerpo #collection #col-second .photo{
+			margin-right:10px; 
+		}
+		#cuerpo #seasson #sea-second .photo{
+			margin-right:10px; 
+		}
+}

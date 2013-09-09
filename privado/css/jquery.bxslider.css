@@ -1,0 +1,160 @@
+.bx-wrapper {
+	position: relative;
+	
+}
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+	position: absolute;
+
+}
+.bx-wrapper .bx-pager {
+	display: none !important;
+}
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #666;
+	text-indent: -9999px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	outline: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #000;
+}
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+.bx-wrapper .bx-controls-direction a {
+	outline: 0;
+	text-indent: -9999px;
+	z-index: 44;
+}
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none;
+}
+/*--------------------------*/
+/*My BxSlider*/
+.logged #cuerpo #banner .bx-controls-direction a.bx-prev{
+	width: 45px !important;
+	height: 45px !important;
+	background-image: url(../imagenes/general/sprite.png);
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: -130px -50px;
+	-webkit-transition: background-color .5s ease-in-out;
+	-moz-transition: background-color .5s ease-in-out;
+	-o-transition: background-color .5s ease-in-out;
+	transition: background-color .5s ease-in-out;
+}
+	.logged #cuerpo #banner .bx-controls-direction a.bx-prev:hover{
+		background-position: -178px -50px;
+		background-color: #63487f;						
+	}
+.logged #cuerpo #banner .bx-controls-direction a.bx-next{
+	width: 45px !important;
+	height: 45px !important;
+	background-image: url(../imagenes/general/sprite.png);
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: -130px -97px;
+	-webkit-transition: background-color .5s ease-in-out;
+	-moz-transition: background-color .5s ease-in-out;
+	-o-transition: background-color .5s ease-in-out;
+	transition: background-color .5s ease-in-out;
+}						
+	.logged #cuerpo #banner .bx-controls-direction a.bx-next:hover{
+		background-position: -180px -97px;
+		background-color: #63487f;				
+	}
+.logged #cuerpo #banner .bx-controls,
+.logged #cuerpo #banner .bx-controls-direction{
+	position: absolute;
+	width: 100% !important;
+	height: 45px;
+}
+
+/*Designer - Index*/
+.logged #cuerpo #banner.ban-style1{
+	width: 100%;
+	max-width: 1300px;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+	.logged #cuerpo #banner.ban-style1 .ban-slider{
+		width: 100%;
+	}
+		.logged #cuerpo #banner.ban-style1 .bx-wrapper img {
+			width: 100%;
+			display: block;
+		}		
+		.logged #cuerpo #banner.ban-style1 .bx-controls,
+		.logged #cuerpo #banner.ban-style1 .bx-controls-direction{
+			bottom: 0 !important;			
+			background: rgba(255, 255, 255, 0.45) !important;
+		}
+			.logged #cuerpo #banner.ban-style1 .bx-controls-direction a.bx-prev{				
+				position: static;
+				top: 0% !important;
+				right: 0 !important;
+				float: right;
+				margin-right: 0px;
+				margin-top: 0 !important;	
+			}
+			.logged #cuerpo #banner.ban-style1 .bx-controls-direction a.bx-next{				
+				position: static;
+				top: 0% !important;
+				right: 0 !important;
+				float: right;
+				margin-right: 0px;
+				margin-top: 0 !important;
+				border-right: 1px solid #533b6a;				
+			}						
+				
+/*Designer #profile*/
+.logged #cuerpo #banner.banner-style2{
+	width: 100%;
+	max-width: 1000px;
+	min-width: 1000px;
+	margin: 0px auto;
+	margin-top: 10px;
+}
+.logged #cuerpo #banner.banner-style2 .ban-slide{
+	position: relative !important;
+}
+.logged #cuerpo #banner.banner-style2 .bx-wrapper{
+	padding-top: 50px;
+}
+.logged #cuerpo #banner.banner-style2 .bx-controls,
+.logged #cuerpo #banner.banner-style2 .bx-controls-direction {
+	top: 0 !important;
+	background: #e5e5e5 !important;
+}
+.logged #cuerpo #banner.banner-style2 .bx-controls-direction a.bx-prev{ 
+	position: absolute;
+	top: 0% !important;
+	left: 45px !important;
+	float: none;
+}
+.logged #cuerpo #banner.banner-style2 .bx-controls-direction a.bx-next{
+	position: absolute;
+	top: 0% !important;
+	left: 0 !important;
+	float: none;
+}
+.logged #cuerpo #banner.banner-style2 .bx-wrapper li img{
+	height: 343px !important;
+	overflow: hidden !important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}

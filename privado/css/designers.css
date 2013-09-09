@@ -1,0 +1,1651 @@
+#designers,
+#designers div,
+#designers ul li,
+#designers p,
+#designers section,
+#designers article,
+#designers iframe,
+#designers figure{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;	
+}	
+section#cuerpo{
+	width: 1000px;
+	margin: 0 auto;
+	background: transparent;
+}
+	article.maindetails{
+		width: 100%;
+		height: auto;
+		margin-top: 50px;
+	}
+		.maindetails>div:first-child{
+			width: 70%;
+			display: block;
+			float: left
+		}		
+			.maindetails .titulo{
+				width: 100%;		
+			}
+				.maindetails .titulo i{
+					vertical-align: 0px;
+				}
+				.maindetails .titulo h3{
+					display: inline-block;
+					text-align: left;
+					text-transform: uppercase;
+					color: #4f3d5f;
+					letter-spacing: 2px;
+					word-spacing: 2px;
+					font: 35px vevey;
+					vertical-align: 0px;
+				}
+				.maindetails .titulo span{
+					vertical-align: 0px;
+					color: #666666;
+					font: 17.5px calibrili, calibri;
+				}
+			.maindetails .date{
+				margin-top: 10px;
+				width: 100%;		
+				padding-left: 10px;
+			}
+				.maindetails .date div:last-child{
+					margin-left: 10px;
+				}
+				.maindetails .date p,
+				.maindetails .date span{
+					font: 17.5px calibrili, calibri;
+					vertical-align: 2px;
+					display: inline;
+				}
+				.maindetails .date i{
+					vertical-align: 0px;
+					padding-right: 5px;	
+				}
+				.maindetails .date>div{
+					display: inline-block;
+				}
+					.maindetails .date>div p:first-child{
+						color: #745d8b;
+					}
+					.maindetails .date>div p:last-child{
+						color: #666666;
+					}
+					.maindetails .date>div span{
+						padding: 0 12px;
+					}
+					.maindetails .date>div span:last-child{
+						border-left: 1px solid #c7c7c7
+					}			
+				
+		.maindetails>div:last-child{
+			width: 30%;
+			display: block;
+			float: left;
+			text-align: right;
+		}
+			.maindetails .but button{
+				width: 250px;
+				cursor: pointer;
+				background: #8668a0;
+				padding: 15px 0;
+				box-shadow: 
+					0px -1px 0px #9a8ab2, 
+					0px 2px 0px #4f3d5f, 
+					inset 0px -3px 0px #a08cbd;
+				border-radius: 3px;
+				border:  none;
+				font: 23px vevey;
+				color: #fff;
+				word-spacing: 1px;			
+				letter-spacing: 1px;			
+			}
+			.maindetails .but button:hover{
+				background: #4f3d5f;
+			}
+				.maindetails .but button i{
+					vertical-align: middle;
+					padding-left: 10px;
+				}
+	/*MAIN MENU TO DESIGNERS	*/
+	article#ajax-menu{
+		display: block;
+		width: 100%;
+		height: auto;
+		margin-top: 30px;
+	}
+	#ajax-menu .tabberlive{
+		width: 100%;
+	}
+		#ajax-menu .tabberlive .tabbertabhide{
+			display:none;
+		}
+			#ajax-menu ul.tabbernav{
+				list-style: none;			
+			}
+			#ajax-menu .tabberlive .tabbertab h2 {
+				display:none;
+			}	
+				/*Tab general*/
+				#ajax-menu .tabbertab .content{
+					width: 100%;
+					height: auto;					
+				}
+					#ajax-menu .tabbertab .content .helper{
+						text-align: center;
+						padding: 28px 0;
+						border-bottom: 1px solid #cbcbcb
+					}
+						#ajax-menu .tabbertab .content .helper p{
+							font: 17px calibrili,calibri;
+							color: #666666;
+							line-height: 1em;
+						}
+						#ajax-menu .tabbertab .content .helper p i{
+							vertical-align: middle;
+							margin-right: 5px;
+						}
+						#ajax-menu .tabbertab .content .helper p a{
+							display: inline-block;
+							color: #4b246d;
+							border-bottom: 1px solid #8c7b9e;
+							text-decoration: none;
+							font: 17px calibrili,calibri;
+							line-height: 1em;
+							-webkit-transition: all .3s ease-in-out;
+							-moz-transition: all .3s ease-in-out;
+							-o-transition: all .3s ease-in-out;
+							transition: all .3s ease-in-out;
+						}
+						#ajax-menu .tabbertab .content .helper p a:hover{
+							border-bottom: 1px solid #4b246d;
+							cursor: help;
+						}
+				#ajax-menu ul.tabbernav li{
+					display: block;
+					float: left;
+					width: 25%;
+					height: 60px;
+					position: relative;
+				}
+					#ajax-menu ul.tabbernav li a{
+						height: 100%;					
+						width: 100%;
+						text-decoration: none;				
+						display: block;					
+						text-align: center;
+						-webkit-box-sizing: border-box;
+						-moz-box-sizing: border-box;
+						-ms-box-sizing: border-box;								
+						box-sizing: border-box;									
+						-webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+						-moz-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+						-o-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+						transition: background-color .3s ease-in-out, color .3s ease-in-out;
+					}										
+					/*First main tab*/
+					#ajax-menu #profilemenu>ul.tabbernav li a{
+						color: #41334d;
+						background-color: #c9c9c9;
+						text-transform: normal;
+						font:22px vevey;
+						letter-spacing: 2px;
+						word-spacing: 2px;
+						border: 1px solid #939393;
+						box-shadow:inset 1px 1px 2px #fff;
+						line-height: 2.8em;	
+					}					
+					#ajax-menu #profilemenu>ul.tabbernav li a:hover{
+						background-color: #5a3f74 !important;
+						border: none !important;
+						box-shadow: none !important;
+						color: #fff !important;
+					}					
+					#ajax-menu #profilemenu>ul.tabbernav li i{
+						position: absolute;
+						background-image: url("../imagenes/general/sprite.png");
+						background-repeat: no-repeat;
+						cursor: pointer;
+					}
+					#ajax-menu #profilemenu>ul.tabbernav li:nth-child(1) i{
+						width: 36px;
+						height: 42px;
+						top: 10px;
+						left: 39px;
+						background-position: -41px -198px;	
+					}
+						#ajax-menu #profilemenu>ul.tabbernav li:nth-child(1) a:hover i,
+						#ajax-menu #profilemenu>ul.tabbernav li.tabberactive:nth-child(1) a i{
+							background-position: -83px -198px !important;
+						}					
+					#ajax-menu  #profilemenu>ul.tabbernav li:nth-child(2) i{
+						width: 32px;
+						height: 32px;
+						top: 13px;
+						left: 30px;
+						background-position: -45px -253px;		
+					}
+						#ajax-menu  #profilemenu>ul.tabbernav li:nth-child(2) a:hover i,
+						#ajax-menu  #profilemenu>ul.tabbernav li.tabberactive:nth-child(2) a i{
+							background-position: -86px -253px !important;
+						}					
+					#ajax-menu  #profilemenu>ul.tabbernav li:nth-child(3) i{
+						width: 39px;
+						height: 28px;
+						top: 17px;
+						left: 38px;
+						background-position: -45px -303px;	
+					}
+						#ajax-menu  #profilemenu>ul.tabbernav li:nth-child(3) a:hover i,
+						#ajax-menu  #profilemenu>ul.tabbernav li.tabberactive:nth-child(3) a i{
+							background-position: -89px -303px !important;
+						}
+						
+					#ajax-menu  #profilemenu>ul.tabbernav li:nth-child(4) i{
+						width: 32px;
+						height: 30px;
+						top: 18px;
+						left: 34px;
+						background-position: -47px -341px;		
+					}
+						#ajax-menu  #profilemenu>ul.tabbernav li:nth-child(4) a:hover i,
+						#ajax-menu  #profilemenu>ul.tabbernav li.tabberactive:nth-child(4) a i{
+							background-position: -91px -341px !important;
+						}
+					/*Second tabs*/
+					#ajax-menu #mycollection>ul.tabbernav li a{
+						color: #41334d;
+						text-transform: none !important;
+						background-color: #fff;
+						font:17px calibrili,calibri;						
+						box-shadow: inset 0px -2px 0px #E2E2E2,
+							inset 0px 3px 4px #ddd;
+						line-height: 3.4em;	
+					}
+					#ajax-menu #mycollection>ul.tabbernav li a:hover{
+						background-color: #5a3f74;
+						color: #fff;
+						box-shadow: none !important;
+					}					
+					#ajax-menu #mycollection>ul.tabbernav{						
+						width: 100%;
+						margin-top: 20px;			
+					}				
+						#ajax-menu #mycollection>ul.tabbernav li{
+							width: 50%;
+							background: #fff;			
+						}
+							#ajax-menu #mycollection>ul.tabbernav li a{
+								background-color: #fff;
+							}
+							#ajax-menu #mycollection>ul.tabbernav li i{
+								vertical-align: middle;
+								display: inline-block;	
+								*margin-left: .3em;
+								margin-left: .3em;
+								text-align: left;
+								background-image: url("../imagenes/general/sprite.png");
+								background-repeat: no-repeat;
+								cursor: pointer;
+							}
+							#ajax-menu #mycollection>ul.tabbernav li:nth-child(1) i{
+								width: 31px;
+								height: 31px;
+								top: 10px;
+								left: 39px;
+								background-position: -47px -379px;	
+							}
+								#ajax-menu #mycollection>ul.tabbernav li:nth-child(1) a:hover i,
+								#ajax-menu #mycollection>ul.tabbernav li:nth-child(1) a.active i{
+									background-position: -91px -379px
+								}					
+							#ajax-menu  #mycollection>ul.tabbernav li:nth-child(2) i{
+								width: 27px;
+								height: 24px;
+								top: 13px;
+								left: 30px;
+								background-position: -54px -423px;
+							}
+								#ajax-menu  #mycollection>ul.tabbernav li:nth-child(2) a:hover i,
+								#ajax-menu  #mycollection>ul.tabbernav li:nth-child(2) a.active i{
+									background-position: -91px -423px;
+								}
+
+				/*Third Content*/
+					
+					/*CONTENIDO MY PROFILE*/
+					#ajax-menu #myprofile{
+						width: 100%;
+						height: auto;
+					}	
+						#ajax-menu #myprofile .box{
+							background: #e5e5e5;
+							padding: 15px;
+							position: relative;
+						}
+							#ajax-menu #myprofile .box .ico{
+								background: #8766a4;
+								padding: 4px;
+								position: absolute;
+								top: 15px;
+								left: 15px;
+								width: 43px;
+								height: 43px;
+								border-radius: 4px;
+								z-index: 2;
+							}
+								#ajax-menu #myprofile .box .ico input[type='file']{
+									width: 100%;
+									opacity: 0;
+									position: absolute;
+									left: 0;
+									top: 0;
+									padding: 0;
+									margin: 0;
+									cursor: pointer;
+								}
+								#ajax-menu #myprofile .box .ico>i{
+									margin-top: 8px;
+									margin-left: 6px;
+								}
+								#ajax-menu #myprofile .box .ico>i.ico2{
+									margin-left: 11px !important;
+									margin-top: 5px !important;
+								}
+
+								#ajax-menu #myprofile .box input,
+								#ajax-menu #myprofile .box textarea{
+									width: 84%;
+									float: right;										
+								}
+								#ajax-menu #myprofile .box input{
+									margin-bottom: 9px;
+								}
+							#ajax-menu #myprofile .box .pic-info{
+								position: relative;
+							}			
+								#ajax-menu #myprofile .box .pic-info span{
+									position: absolute;
+									left: 67px;
+									top: 13px
+								}				
+						#ajax-menu #myprofile input[type="file"]{
+							height: 100%;
+							cursor: pointer;
+						}
+						#ajax-menu #myprofile input,
+						#ajax-menu #myprofile textarea{
+							border-left: 1px solid #b2b2b2;
+							border-top: 1px solid #b2b2b2;
+							border-bottom: 1px solid #fff;
+							border-right: 1px solid #fff;
+							border-radius: 4px;
+							resize: none;
+							padding: 10px 8px;
+							font:17px calibrili, calibri;
+							color: #666666;
+							width: 100%;
+						}
+						#ajax-menu #myprofile textarea{
+							height: 60px;
+							margin-bottom: 7px;
+							-webkit-box-sizing: border-box;
+							-moz-box-sizing: border-box;
+							box-sizing: border-box;
+						}
+						
+						#ajax-menu .myaccount{
+							margin: 10px 0;
+							width: 100%;
+							background: #e5e5e5;
+							padding: 20px;
+							-webkit-box-sizing: border-box;
+							-moz-box-sizing: border-box;
+							box-sizing: border-box;
+						}
+							#ajax-menu .myaccount>div:nth-child(1){
+								width: 18%;
+								float: left;
+							}
+								#ajax-menu .myaccount>div:nth-child(1) .myphoto{
+									width: 100%;
+									height: 173px;
+									background: transparent;
+									border-top: 2px solid #d2d2d2;
+									border-left: 2px solid #d2d2d2;
+									border-bottom: 2px solid #ebebeb;
+									border-right: 2px solid #ebebeb;
+									background-color: #fff;
+									cursor: pointer;
+									position: relative;
+								}
+									#ajax-menu .myaccount>div:nth-child(1) .myphoto>img{									
+										position: absolute;
+										top: 0;
+										left: 0;
+										width: 100%;
+										height: 100%;
+									}
+									#ajax-menu .myaccount>div:nth-child(1) .myphoto>p{
+										width: 115px;
+										margin: 0 auto;
+										padding-top: 100px;
+										display: block;
+										color: #60417b;
+										line-height: 16px;
+										font: 18px calibrili,calibri;
+										text-align: center;									
+										-webkit-box-sizing: border-box;
+										-moz-box-sizing: border-box;
+										-o-box-sizing: border-box;
+										-ms-box-sizing: border-box;
+										box-sizing: border-box;
+										position: relative;
+									}									
+									#ajax-menu .myaccount>div:nth-child(1) .myphoto input{
+										top: 0;
+										left: 0;
+										position: absolute;
+										z-index: 9999;
+										-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+										filter: alpha(opacity=0);
+										opacity: 0;
+										cursor: pointer;
+										height: 100%;
+										width: 100%;
+									}								
+									
+							#ajax-menu .myaccount>div:nth-child(2){
+								width: 58%;
+								float: left;
+							}
+								#ajax-menu .myaccount>div:nth-child(2) .info{
+									width: 100%;
+									padding-left: 20px;
+								}
+									#ajax-menu .myaccount>div:nth-child(2) .info p{
+										font:17px calibrili, calibri;
+										color: #666666;
+										margin: 10px 0;
+									}
+										#ajax-menu .myaccount>div:nth-child(2) .info p>span{
+											color: #6e4c8c;
+											padding-right: 4px;
+										}
+									#ajax-menu .myaccount>div:nth-child(2) .info .share{
+										width: 100%;
+										display: block;
+									}
+										#ajax-menu .myaccount>div:nth-child(2) .info .share>p{
+											float: left;									
+										}
+											#ajax-menu .myaccount>div:nth-child(2) .info .share>p i{
+												margin-top: 2px;
+											}
+										#ajax-menu .myaccount>div:nth-child(2) .info .share>p:first-child{
+											padding-right: 10px;
+										}
+										#ajax-menu .myaccount>div:nth-child(2) .info .share>p:last-child{
+											padding-left: 10px;
+											border-left: 1px solid #c7c7c7;
+										}
+							#ajax-menu .myaccount>div:nth-child(3){
+								width: 24%;
+								float: left;
+							}
+								#ajax-menu .myaccount>div:nth-child(3) button{
+									width: 100%;
+									background: #acacac;
+									border-radius: 3px;
+									color: #fff;
+									box-shadow: 0px 1px 1px #5A5A5A;
+									border: none;
+									padding: 10px 0;
+									font: 17px calibrili, calibri;
+								}
+						#ajax-menu .profile-menu{
+							margin: 10px 0;
+							width: 100%;
+							background: #e5e5e5;
+							padding: 20px;
+							-webkit-box-sizing: border-box;
+							-moz-box-sizing: border-box;
+							box-sizing: border-box;
+						}		
+					
+					/*#myprofile-options Style*/
+					#myprofile-options { 
+						width: 100%; 
+						margin: 0 auto; 
+						overflow: hidden; 
+					}
+					#myprofile-options .col-left{
+						width: 37%;
+						margin-right: 3%;
+						padding-bottom: 25px;
+					}
+					#myprofile-options .col-right{
+						width: 60%;
+					}
+					#myprofile-options .col-full{
+						width: 100%;
+					}
+					#myprofile-options .info-col { float: left; }
+					#myprofile-options .old-posts { display: none; }
+
+
+					#myprofile-options dt { 
+						display: block;
+						color: #4b375d;
+						text-indent: 30px;
+						font: 30px vevey;
+						display: block;
+						position: relative;
+						line-height: 55px;
+						outline: none;
+						height: 55px;
+						border-bottom: 1px solid #dddddd;
+						border-top: 1px solid #fff;
+						-webkit-transition: color 0.2s ease-in-out;
+						-moz-transition: color 0.2s ease-in-out;
+						-o-transition: color 0.2s ease-in-out;
+						-ms-transition: color 0.2s ease-in-out;
+						transition: color 0.2s ease-in-out;
+					}
+					#myprofile-options dt:first-child{
+						border-top: 1px solid #ddd;
+					} 
+					#myprofile-options dd { position: absolute; left: -9999px; top: -9999px; width: auto; padding: 10px 0; color: white; margin:0 ;}
+					#myprofile-options .curCol { z-index: 1; position: relative; }
+					#myprofile-options .my-arrow{
+						background: transparent url(../imagenes/general/arrow.png) no-repeat center center;
+						text-indent: -9000px;
+						width: 26px;
+						height: 14px;
+						position: absolute;
+						top: 50%;
+						left: 0;
+						margin-top: -7px;
+						opacity: .5;
+						-webkit-transition: all 0.2s ease-in-out;
+						-moz-transition: all 0.2s ease-in-out;
+						-o-transition: all 0.2s ease-in-out;
+						-ms-transition: all 0.2s ease-in-out;
+						transition: all 0.2s ease-in-out;
+					}
+					#myprofile-options.active .my-arrow{
+						-webkit-transform:rotate(180deg);
+						-moz-transform:rotate(180deg);
+					    transform:rotate(180deg);
+						right:10px;
+						opacity:1;
+					}					
+						/*Buts General*/
+						#myprofile-options .noedit button.correct{
+							background-color: #bcbcbc !important;
+						}
+							#myprofile-options .noedit button.correct:hover{
+								background-color: #949494 !important;
+							}
+						#myprofile-options button.correct{
+							background-color: #6a5083 !important;
+						}
+						#myprofile .noedit button.butsave{
+							visibility: hidden;								
+						}
+						#myprofile .posts.noedit textarea{
+							border: none !important;
+							background: transparent !important;
+						}	
+						#myprofile .posts.noedit input{
+							border: none !important;
+							background: transparent !important;
+						}	
+						/*1.1 [About me]*/
+						#myprofile #aboutme{
+							width: 100%;
+							padding: 15px 0;
+						}
+							#myprofile #aboutme .buts{
+								display: block;	
+								width: 100%;
+								margin-bottom: 5px;		
+							}
+								#myprofile #aboutme .buts button{
+									border: none;
+									float: right;
+									line-height: 1px;
+									background-color: #6a5083;
+									width: 20px;
+									height: 20px;
+									border-radius: 3px;
+								}							
+									#myprofile #aboutme .buts button i{
+										margin: 0;
+										padding: 0;
+									}
+							/*About me "NO EDIT"*/
+							#myprofile #aboutme.noedit textarea{
+								border:none	;
+								background:transparent;
+							}
+							#myprofile #aboutme.noedit .buts button{
+								background-color: #bcbcbc;
+							}	
+						
+						/*1.2 [Work Experience]*/						
+						#myprofile #workexperience{
+							width: 100%;
+							padding: 15px 0;
+						}
+							#myprofile #workexperience .save button{
+								margin-right: 7%;
+							}
+							#myprofile #workexperience .list{
+								width: 100%;			
+								position: relative;
+								margin: 15px 0;
+								padding-bottom: 10px;
+								border-bottom: 1px solid #ddd;
+								box-shadow: 1px 1px 1px #fff;		
+							}	
+								#myprofile #workexperience .list>div:first-child i{
+									position: absolute;
+									left: 4px;
+									top: 18px;
+								}								
+								#myprofile #workexperience .list div:first-child{
+									width: 100%;
+								}								
+									#myprofile #workexperience .list div:first-child input,
+									#myprofile #workexperience .list div:first-child textarea{
+										width: 88%;
+										float: left;
+										margin-left: 5%;
+									}
+										#myprofile #workexperience .list div:first-child input{
+											color: #63368a;
+											font:17px calibri,calibrili;
+											font-style: normal;
+											margin-bottom: 7px;
+										}
+										#myprofile #workexperience .list div:first-child textarea{
+											color: #666666;
+											font:17px calibri,calibrili;
+											font-style: normal;
+										}									
+								#myprofile #workexperience .list div:last-child{
+									width: 20px;
+									position: absolute;
+									top:0;
+									right: 0;
+								}
+									#myprofile #workexperience .list div:last-child button{
+										float: left;
+										width: 100%;
+										margin-bottom: 2px;
+									}									
+							/*WORK EXPERIENCE me "NO EDIT"*/
+							#myprofile #workexperience.noedit .list>div:first-child i{
+								position: absolute;
+								left: 4px;
+								top: 6px;
+							}
+							#myprofile #workexperience.noedit .list input,
+							#myprofile #workexperience.noedit .list textarea{
+								background: transparent !important;
+								border: none !important;
+								margin: 0 !important;
+								padding: 0 0 0 27px !important
+							}
+						/*1.3 [Add Images]*/
+						#myprofile #addimages{
+							width: 100%;
+							padding: 15px 0;
+						}
+							#myprofile #addimages p{
+								font: 17px calibrili, calibri;
+								color:#666666;
+								padding-left: 30px;
+								margin-bottom:8px;
+							}							
+							#myprofile #image-list{
+								width: 100%;
+							}
+								#myprofile #image-list>li{
+									clear: both;
+									width: 100%;
+									margin: 15px 0;
+								}
+									#myprofile #image-list>li>img{
+										width: 100%;
+									}						
+						/*1.4 [Add News]*/
+						#myprofile #addnews{
+							width: 100%;
+							padding: 15px 0;
+						}
+							#myprofile #addnews p{
+								font: 17px calibrili, calibri;
+								color:#666666;
+								padding-left: 30px;
+								margin-bottom:8px;
+							}
+							.addnews-tab {
+							    position: relative;
+								margin: 20px auto;
+								width: 560px;
+							}
+								.addnews-tab input[type="radio"] {
+									position: absolute;
+									z-index: 1000;
+									width: 33.33%;
+									padding: 0;
+									margin: 0;
+									height: 45px;
+									left: 0px;
+									top: 0px;
+									opacity: 0;
+									cursor: pointer;
+									-webkit-box-sizing: border-box;
+									-moz-box-sizing: border-box;
+									box-sizing: border-box;
+								}
+								.addnews-tab input#tab-2{
+									left: 33.33%;
+								}
+								.addnews-tab input#tab-3{
+									left: 66.66%;
+								}
+								.addnews-tab label {
+									padding-left: 40px;
+									background: #b8b8b8;
+									font: 17px calibri, calibrili;
+									line-height: 45px;
+									height: 45px;
+									position: relative;
+									text-align: left;
+									float: left;
+									display: block;
+									width: 33.33%;
+									color: #fff;
+									-webkit-box-sizing: border-box;
+									-moz-box-sizing: border-box;
+									box-sizing: border-box;
+								}
+									.addnews-tab label>i{
+										margin-left: 8px;
+									}
+								.addnews-tab input:hover + label {
+									background: #e4e4e4;
+								}
+								.addnews-tab-label-1{
+									z-index: 6;
+								}
+								.addnews-tab-label-2 {
+								    z-index: 6;
+								}
+								.addnews-tab-label-3 {
+								    z-index: 6;
+								}
+								.addnews-tab-label-4 {
+								    z-index: 6;
+								}
+								.addnews-tab input+label.addnews-tab-label-1{
+									border-top-left-radius: 7px;		
+								}
+								.addnews-tab input+label.addnews-tab-label-3{
+									border-top-right-radius: 7px;		
+								}
+								.addnews-tab input:checked + label {
+								    background: #e4e4e4;
+									z-index: 10;
+									color: #3b1c55;
+								}
+									.addnews-tab input:checked + label>i.myicon-addnew{
+										background-position: -54px -508px;
+									}
+									.addnews-tab input:checked + label>i.myicon-addvideo{
+										background-position: -56px -535px;
+									}
+									.addnews-tab input:checked + label>i.myicon-addimage{
+										background-position:-56px -562px;
+									}								
+								.addnews-content {
+								    background: #e4e4e4;
+									position: relative;
+									top: 45px;
+									left: 0;
+								    width: 100%;
+									height: 370px;
+									z-index: 5;
+									border-bottom-left-radius: 7px;
+									border-bottom-right-radius: 7px;
+									-webkit-box-shadow: 1px 1px 0px #bababa;
+									-moz-box-shadow: 1px 1px 0px #bababa;
+									box-shadow: 1px 1px 0px #bababa;
+								}
+									.addnews-content .box{
+										padding: 5px 15px !important;
+									}
+										.addnews-content .box .ico{
+											top: 5px !important
+										}
+
+									.addnews-content input[type="text"],
+									.addnews-content textarea{
+										width: 88% !important;
+									}
+									.addnews-content>div {
+										width: 100%;
+									    position: absolute;
+										top: 0;
+										left: 0;
+										padding: 10px 25px;
+										z-index: 1;
+									    opacity: 0;
+									    -webkit-transition: opacity linear 0.1s;
+									    -moz-transition: opacity linear 0.1s;
+									    -o-transition: opacity linear 0.1s;
+									    -ms-transition: opacity linear 0.1s;
+									    transition: opacity linear 0.1s;
+									}
+									.addnews-tab input.addnews-tab-selector-1:checked ~ .addnews-content .addnews-content-1,
+									.addnews-tab input.addnews-tab-selector-2:checked ~ .addnews-content .addnews-content-2,
+									.addnews-tab input.addnews-tab-selector-3:checked ~ .addnews-content .addnews-content-3{
+										z-index: 100;
+									    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+									    filter: alpha(opacity=100);
+									    opacity: 1;
+									    -webkit-transition: opacity ease-out 0.2s 0.1s;
+									    -moz-transition: opacity ease-out 0.2s 0.1s;
+									    -o-transition: opacity ease-out 0.2s 0.1s;
+									    -ms-transition: opacity ease-out 0.2s 0.1s;
+									    transition: opacity ease-out 0.2s 0.1s;
+									}
+
+						/*1.5. Add Inspirations*/
+						#myprofile #addinspirations{
+							width: 100%;
+						}
+							#myprofile #addinspirations .themself{
+								background: #e5e5e5;
+								padding: 10px;
+								-webkit-box-sizing: border-box;
+								-moz-box-sizing: border-box;
+								box-sizing: border-box;
+							}
+								#myprofile #addinspirations .themself button i{
+									margin-top: 3px;
+								}
+								#myprofile #addinspirations .themself>div{
+									width: 50%;
+									float: left;
+								}
+									#myprofile #addinspirations .themself>div .progressbar{
+										width: 84%;
+									}
+									#myprofile #addinspirations .themself>div textarea{
+										height: 100px;
+									}
+							#myprofile #addinspirations .slider{
+								background: #e5e5e5;
+							}
+
+						/*POSTS*/
+						/*1.6 Post Images*/
+						#myprofile figure.myphoto{
+							width: 100%;
+							max-width: 100%;
+							margin: 0;
+							padding: 0 10px;
+						}
+							#myprofile figure.myphoto img{
+								width: 100%;
+								max-width: 100%;
+							}
+								#myprofile figure.myphoto figcaption{
+									width: 100%;
+									margin: 10px 0;
+								}
+									#myprofile figure.myphoto figcaption em{
+										font:17px calibrili, calibri;
+										color: #634c78;
+										text-align: left;
+										text-transform: uppercase;
+									}									
+										#myprofile figure.myphoto figcaption button{
+											margin-top: 0;											
+										}
+						/*1.7 Post Videos*/
+						#myprofile .posts{
+							width: 100%;
+							position: relative;
+							padding: 20px 0;
+							border-top: 1px solid #fff;
+							border-bottom: 1px solid #ccc;
+						}							
+							#myprofile .posts .post-but{								
+								width: 10%;
+								text-align: right;
+							}
+								#myprofile .posts .post-but button{
+									display: inline-block;
+								}
+						
+						/*My posts*/
+						#myprofile .posts .social{
+							width: 100%;
+						}
+						#myprofile .posts .social>div{
+							float: left;
+						}												
+							/*Post News - Social*/							
+							#myprofile .post-news .social>div:first-child{
+								width: 225px;
+							}	
+							#myprofile .post-news .social>div:last-child{
+								width: 375px;
+							}
+							#myprofile .post-news .social .butlike{
+								float: right !important
+							}
+							/*Post Photos - Social*/
+							#myprofile .post-image .social>div:first-child{
+								width: 50%;
+							}	
+							#myprofile .post-image .social>div:last-child{
+								width: 50%;
+							}
+						/*Post News*/
+						#myprofile .post-news{
+							width:100%;
+						}
+							#myprofile .post-news .post-but{
+								position: absolute;
+								right: 0;
+								top: 20px;
+							}
+							#myprofile .post-news div{
+								float: left;
+							}
+							#myprofile .post-news>div:nth-child(3){
+								width: 100%;
+								padding: 0;
+							}
+							#myprofile .post-news>div:nth-child(1){
+								width: 225px
+							}
+								#myprofile .post-news>div:nth-child(1) img{
+									width: 100%;
+								}								
+							#myprofile .post-news>div:nth-child(2){
+								width: 375px;
+								padding-left: 10px;
+								-webkit-box-sizing: border-box;
+								-moz-box-sizing: border-box;
+								box-sizing: border-box;
+							}
+								#myprofile .post-news>div:nth-child(2) div.titulo{
+									width: 100%;
+									padding-right: 15%;
+									height: auto;
+								}
+									#myprofile .post-news .post-txtarea1{
+										text-transform: uppercase;
+										color: #6a5083;
+										width: 100%;
+										margin: 0 !important;
+										height: 80px !important;
+										padding: 2px 5px !important;
+									}
+									#myprofile .post-news .descrip{
+										width: 100%;
+									}
+								
+									#myprofile .post-news .post-txtarea2{
+										text-transform: none;
+										color: #6a5083;
+										width: 100%;
+										height: 106px  !important;
+										margin: 0;
+										padding: 2px 5px !important;
+										}									
+							
+						/*Post Photos*/
+						#myprofile .post-image{
+							width:100%;
+						}
+							#myprofile .post-image div.thepic{
+								width: 100%;
+								padding: 0;
+							}
+								#myprofile .post-image div.thepic img{
+									width: 100%;
+								}
+							#myprofile .post-image div.titulo{
+								width: 100%;
+								padding-right: 10%;
+								height: auto;
+								position: relative;
+								margin-top: 7px;
+							}
+								#myprofile .post-image div.titulo>.post-but{
+									position: absolute;
+									right: 0;
+									top: 10px;
+								}
+									#myprofile .post-image div.titulo input{
+										text-transform: uppercase;
+										color: #6a5083 !important;
+									}
+						/*Post videos*/
+						#myprofile .post-video{
+							width:100%;
+						}
+							#myprofile .post-video div.thevideo{
+								width: 100%;
+								padding: 0;
+							}
+								#myprofile .post-video div.thevideo iframe{
+									width: 100%;
+									height: 360px;
+								}
+							#myprofile .post-video div.titulo{
+								width: 100%;
+								padding-right: 10%;
+								height: auto;
+								position: relative;
+								margin-top: 7px;
+							}
+								#myprofile .post-video div.titulo>.post-but{
+									position: absolute;
+									right: 0;
+									top: 10px;
+								}
+									#myprofile .post-video div.titulo input{
+										text-transform: uppercase;
+										color: #6a5083 !important;
+									}
+							#myprofile .post-video .social>div:first-child{
+								float: left;
+								width: 50%;
+								text-align: left;
+							}
+							#myprofile .post-video .social>div:last-child{
+								float: right;
+								width: 50%;
+								text-align: right;
+							}
+								#myprofile .post-video .social>div:last-child .butview{
+									font: 26px vevey;
+									color: #4b375d;
+									background: transparent;
+									letter-spacing: 2px;
+									margin-top: 4px;
+								}
+									#myprofile .post-video .social>div:last-child .butview i{
+										vertical-align: middle;
+									}
+		
+					#myprofile .but {					
+						margin: 80px 0;
+					}
+						#myprofile .but button{
+							margin: 0 auto;
+							width: 310px;
+						}
+							#myprofile .but button i{
+								margin-top: 4px;
+							}
+							#myprofile .but button:hover i{
+								background-position: -92px -624px;
+							}
+						#myprofile .but div.profile-update{
+							text-align: center;
+							margin: 0 auto;
+							margin-top: 20px;
+							visibility: hidden;
+						}
+							#myprofile .but div.profile-update p{
+								font: 17px calibrili, calibri;
+								color: #49335e;
+							}
+
+					/*2. My Colleection*/
+					#ajax-menu .collectionmenu{
+					    display: block;
+						float: left;
+						width: 100%;
+						max-width: 1000px;
+						position: relative;	
+						background: transparent;
+						margin-top: 25px;   
+					}
+						.collectionmenu label,
+						.collectionmenu input{
+							-webkit-box-sizing: border-box;
+							-moz-box-sizing: border-box;
+							-ms-box-sizing: border-box;
+							box-sizing: border-box;
+							-webkit-transition: all .3s ease-in-out;
+							-moz-transition: all .3s ease-in-out;
+							-o-transition: all .3s ease-in-out;
+							transition: all .3s ease-in-out;	
+						}
+						.collectionmenu>input, .collectionmenu>label{
+							clear: both;
+							cursor: pointer;
+							display: block;
+							float: left;
+							height: 40px;	
+							width: 200px;
+						}
+						.collectionmenu>input {
+							position: absolute;
+							z-index: 1000;		
+							left: 0px;	
+							opacity: 0;
+						    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+						    filter: alpha(opacity=0);
+						}
+							.collectionmenu input#collection-1{top: 0px;}
+							.collectionmenu input#collection-2{top: 50px;}
+							.collectionmenu input#collection-3{top: 100px;}
+							.collectionmenu input#items-1{top: 0px;}
+							.collectionmenu input#items-2{top: 50px;}
+							.collectionmenu input#items-3{top: 100px;}
+
+						.collectionmenu label {
+							margin-bottom: 10px;
+							cursor: pointer;
+							padding-left: 10px;
+							padding-top: 8px;
+							background: #dbdbdb;
+							box-shadow: -1px 1px 1px #b9b9b9;
+							border-radius: 3px;
+							font: 17px calibrili,calibri;
+							color: #5b5b5b;
+							position: relative;		
+						}
+						.collectionmenu label i{
+							vertical-align: middle;
+							font-size: 20px;
+							margin-left: 10px;
+							position: absolute;
+							right: 10px;
+							top: 10px;
+						}
+						.collectionmenu input:hover + label.label-mymenu {
+							background: #7b5e94;
+							color: #fff;
+						}
+						.collectionmenu input:active + label.label-mymenu {
+							background: #4f3d5f;
+							color: #fff;
+						}
+						.collectionmenu input:checked + label.label-mymenu{
+							background: #7b5e94;
+							color: #fff;
+							z-index: 6;
+						}
+						.collectionmenu label:first-of-type{
+						    z-index: 4;
+						}
+						.collectionmenu label.tab-label-2{z-index: 3;}
+						.collectionmenu label.tab-label-3{z-index: 2;}
+						.collectionmenu label.tab-label-4{z-index: 1;}
+
+						.content-tabs {
+							background: transparent;
+						    position: relative;
+						   	width: 800px;
+							margin: 0px 0 0 200px;
+							height: 630px;
+							z-index: 5;
+							overflow: hidden;  	 
+						}
+						.content-tabs>div {   
+							height: 100%;
+							width: 100%;
+							max-width: 800px;
+							padding-left: 17px;
+							top: 0;
+							z-index: 1;
+							opacity: 0;
+							position: absolute;
+							-webkit-transition: all linear 0.7s;
+							-moz-transition: all linear 0.7s;
+							-o-transition: all linear 0.7s;
+							-ms-transition: all linear 0.7s;
+							transition: all linear 0.7s;
+							-webkit-transform: translateY(-250px);
+							-moz-transform: translateY(-250px);
+							-o-transform: translateY(-250px);
+							-ms-transform: translateY(-250px);
+							transform: translateY(-250px);
+						}
+							
+						.collectionmenu input.tab-selector-1:checked ~ .content-tabs .content-tabs-1,
+						.collectionmenu input.tab-selector-2:checked ~ .content-tabs .content-tabs-2,
+						.collectionmenu input.tab-selector-3:checked ~ .content-tabs .content-tabs-3,
+						.collectionmenu input.tab-selector-4:checked ~ .content-tabs .content-tabs-4 {
+						    -webkit-transform: translateY(0px);
+							-moz-transform: translateY(0px);
+							-o-transform: translateY(0px);
+							-ms-transform: translateY(0px);
+							transform: translateY(0px);
+						    z-index: 100;
+						    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+						    filter: alpha(opacity=100);
+						    opacity: 1;
+						    -webkit-transition: all ease-out 0.3s 0.3s;
+						    -moz-transition: all ease-out 0.3s 0.3s;
+						    -o-transition: all ease-out 0.3s 0.3s;
+						    -ms-transition: all ease-out 0.3s 0.3s;
+						    transition: all ease-out 0.3s 0.3s;
+						}
+
+						#ajax-menu .content-tabs .listarcolecciones{
+							width: 100%;
+							height: 270px;
+							padding: 20px;
+							background: #f1f1f1;
+							border-radius: 6px;
+							overflow: hidden;
+							margin-bottom: 20px;
+						}
+							#ajax-menu .content-tabs .listarcolecciones figure{
+								display: block;
+								float: left;
+								margin: 0;
+								padding-left: 0;
+								width: 22%;
+								height: 100%;
+							}
+								#ajax-menu .content-tabs .listarcolecciones figure img{
+									width: 100%;
+									max-width: 100%;
+									height: 100%;
+								}
+							#ajax-menu .content-tabs .listarcolecciones .figcaption{
+								display: block;
+								float: left;
+								margin: 0;
+								width: 78%;
+								height: 100%;
+								padding-left: 10px;
+								position: relative;
+							}							
+								#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(1),
+								#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(2),
+								#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(3){
+									display: block;
+									width: 100%;
+								}
+								/*Fig Caption (Fila 1)*/
+								#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(1)>div.first{
+									float: left;
+									width: 70%;
+								}
+									#ajax-menu .content-tabs .listarcolecciones .figcaption .first .title,
+									#ajax-menu .content-tabs .listarcolecciones .figcaption .first .details{
+										width: 100%;
+									}
+										#ajax-menu .content-tabs .listarcolecciones .figcaption .first .title h3{
+											color: #4b375d;
+											font: 25px vevey;
+											text-transform: uppercase;
+											letter-spacing: 2px;
+											word-spacing: 2px;
+										}
+										#ajax-menu .content-tabs .listarcolecciones .figcaption .first .details div:first-child,
+										#ajax-menu .content-tabs .listarcolecciones .figcaption .first .details div:last-child{
+											width: 50%;
+											float: left;
+										}
+										#ajax-menu .content-tabs .listarcolecciones .figcaption .first .details p{
+											color: #585858;
+											font: 17px calibrili,calibri;
+										}
+											#ajax-menu .content-tabs .listarcolecciones .figcaption .first .details p span{
+												color: #745d8b;
+											}
+								#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(1)>div.second{
+									float: left;
+									width: 30%;
+								}
+									#ajax-menu .content-tabs .listarcolecciones div.second .rate{
+										display: block;
+										float: left;
+										width: 35%;
+										font:17px calibrili,calibri;
+										color: #515151;
+										text-align: center;
+									}
+										#ajax-menu .content-tabs .listarcolecciones div.second div:nth-child(1){
+											border-right: 1px solid #b6b5b5;
+										}
+										#ajax-menu .content-tabs .listarcolecciones div.second div:nth-child(2){
+											border-left: 1px solid #fff;
+										}				
+										#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(1)>div.second .rate button{
+											border: none;
+											cursor: default;
+										}									
+											#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(1)>div.second .rate button i{
+												margin-right: 4px;
+											}
+											#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(1)>div.second .close{
+												margin-right: 0 !important;	
+												position: relative;
+												width: 30%;	
+												margin: 0;					
+											}
+												#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(1)>div.second .close button{
+													position: absolute;
+													top: -3px;
+													right: -3px;
+													cursor: pointer;
+													-webkit-transition: all 0s ease-in-out;
+													-moz-transition: all 0s ease-in-out;
+													-ms-transition: all 0s ease-in-out;
+													-o-transition: all 0s ease-in-out;
+													transition: all 0s ease-in-out;
+												}
+												#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(1)>div.second .close button:hover{
+													background-position: -3px -432px;
+												}
+								#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(2)>.resumen{
+									padding-top: 6px;
+								}
+									#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(2)>.resumen p{
+										color: #666666;
+										font: 16px calibrili,calibri;
+									}
+										#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(2)>.resumen p a{
+											display: inline-block;
+											font: 16px calibrili,calibri;
+											color: #61358c;
+											border-bottom: 1px solid #61358c;
+											text-decoration: none;
+											-webkit-transition: all .3s ease-in-out;
+											-moz-transition: all .3s ease-in-out;
+											-ms-transition: all .3s ease-in-out;
+											-o-transition: all .3s ease-in-out;
+											transition: all .3s ease-in-out;
+										}
+											#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(2)>.resumen p a:hover{
+												border-bottom: 1px solid #351b4e;
+												color: #351b4e;
+											}
+							#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(3){
+								margin-top: 4px;
+							}
+								#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(3)>.info{
+									width: 50%;
+								} 
+								#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(3)>.but{
+									position: absolute;
+									right: 0;
+									bottom: 2px;
+									width: 260px;
+								}	
+								#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(3)>.info p{
+									font: 18px calibri;
+									color: #6a5083;
+									font-style: normal;
+								}
+									#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(3)>.info p>span{							
+										color: #666666;
+										font-style: italic;
+										padding-left: 5px;
+									}
+										#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(3)>.info p>span>i{
+											color: #45285e;
+											font-style: italic;
+										}
+									#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(3)>.info .make-visible{
+										position: absolute;
+										bottom: -4px;
+										left: 10px;
+									}
+										#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(3)>.info .make-visible label{
+											display: block;
+											float: left;
+											margin: 0;
+										}
+											#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(3)>.info .make-visible label + span{
+												font: 17px calibrili,calibri;
+												color: #333333;
+												line-height: 2em;
+												padding-left: 10px;
+											}
+								#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(3)>.but>div{
+									width: 100%;
+								}
+								#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(3)>.but>div:first-child button{
+									width: 100%;
+									border: none;
+									background: #a9a9a9;
+									color: #fff;
+									border-radius: 4px;
+									height: 32px;
+									box-shadow: -1px 1px 0px #414141;
+									margin-bottom: 7px;
+									cursor: pointer;
+								}							
+								#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(3)>.but>div:last-child button{
+									width: 49%;
+									float: left;								
+									border: none;
+									background: #6a5083;
+									color: #fff;
+									border-radius: 4px;
+									height: 32px;
+									box-shadow: -1.5px 1.5px 0px #413150;
+								}
+										/*Hover button*/
+										#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(3)>.but>div:first-child button:hover{
+											background: #999999;
+										}
+										#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(3)>.but>div:last-child button:hover{
+											background: rgba(70, 45, 95, 0.93);
+										}
+								#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(3)>.but>div:last-child button:first-child{
+									margin-right: 2%;
+								}							
+									#ajax-menu .content-tabs .listarcolecciones .figcaption div:nth-child(3)>.but>div:last-child button i{
+										margin-left: 6px;
+										vertical-align: text-bottom !important
+									}
+
+						#ajax-menu .content-tabs .listarcolecciones .tooltip-dress{
+							position: relative;
+							display: inline-block;
+						}	
+							#ajax-menu .content-tabs .listarcolecciones .tooltip-dress>p{
+								display: inline-block;
+							}
+								#ajax-menu .content-tabs .listarcolecciones .tooltip-dress>p:nth-child(1){
+									color: #6a5083 !important
+								}
+								#ajax-menu .content-tabs .listarcolecciones .tooltip-dress>p:nth-child(2){
+									color: #666666 !important;
+									font-style: italic !important;
+								}
+								#ajax-menu .content-tabs .listarcolecciones .tooltip-dress>p:nth-child(3){
+									color: #45285e !important;
+									font: 18px calibri, calibrili;
+									font-style: italic !important;
+									cursor: pointer;
+								}						
+							#ajax-menu .content-tabs .listarcolecciones .tooltip-dress>div.mytooltip2{
+								-ms-box-sizing: border-box;
+								-webkit-box-sizing: border-box;
+								-moz-box-sizing: border-box;
+								box-sizing: border-box;							
+								position: absolute;
+								top: -225px;
+								z-index: 1;
+								opacity: 0;
+								left: 20px;
+								background: #fff;
+								border: 1px solid #715a87;
+								width: 250px;
+								height: 110px;
+								box-shadow: -1px 2px 3px #a3a3a3;
+								-webkit-transition: all .4s ease-in-out;
+								-moz-transition: all .4s ease-in-out;
+								-ms-transition: all .4s ease-in-out;
+								-o-transition: all .4s ease-in-out;
+								transition: all .4s ease-in-out;					
+							}												
+							#ajax-menu .content-tabs .listarcolecciones .tooltip-dress>div.mytooltip2:after{
+								content: '';
+								position: absolute;
+								right: 114px;
+								top: 98px;
+								width: 20px;
+								height: 20px;
+								border-bottom: 1px solid #6c3d98;
+								border-right: 1px solid #6c3d98;
+								box-shadow: 1px 2px 2px #a3a3a3;
+								background: #FCFCFC;
+								z-index: 1;							
+								-webkit-transform: rotate(45deg);
+								-moz-transform:    rotate(45deg);
+								-ms-transform:     rotate(45deg);
+								-o-transform:      rotate(45deg);
+							}
+								#ajax-menu .content-tabs .listarcolecciones .tooltip-dress>div.mytooltip2>em{
+									display: block;
+									width: 100%;
+									color: #666666 !important;
+									font: 16px calibrili, calibri !important;
+									text-align: center;
+									padding: 7px 0;
+								}
+								#ajax-menu .content-tabs .listarcolecciones .tooltip-dress>div.mytooltip2>figure{
+									margin: 0;
+									padding: 0;
+									width: 25% !important;
+									display: block;
+									float: left;
+									height: auto !important;
+									text-align: center;							
+								}
+									#ajax-menu .content-tabs .listarcolecciones .tooltip-dress>div.mytooltip2>figure img{
+										width: 80% !important;
+										margin: 0 auto;
+										height: auto !important
+
+									}
+								#ajax-menu .content-tabs .listarcolecciones .tooltip-dress p:nth-child(3):hover+div{
+									opacity: 1;
+									z-index: 123;
+									top: -125px;
+								}
+								#ajax-menu .pagging {
+									text-align: left !important;
+									border-top: none !important;
+								}
+								#deletecollection{
+									display: block;
+									width: 300px;
+									padding: 40px;
+								}
+									#deletecollection h4{
+										font: 37px vevey;
+										color: #49335e;
+										text-align: center;
+									}
+									#deletecollection p{
+										text-align: left;
+										font: 19px calibrili, calibri;
+										color: #333333;
+										margin: 10px 0;
+									}
+									#deletecollection a{
+										width: 100%;
+									}
+										#deletecollection button{
+											margin-top: 10px;
+											border: none;
+											background: #fff;
+											border: 4px solid #533b6a;	
+											box-shadow: 2px 4px 1px #D8D8D7;
+											cursor:pointer;
+											width: 100%;
+											height: auto;
+											padding: 10px 0;
+											text-decoration: none;
+											color: #533b6a;
+											text-transform: uppercase;
+											display: block;
+											font: 20px vevey;
+											letter-spacing: 4px;
+											-webkit-transition: all .4s ease-in-out;
+											-moz-transition: all .4s ease-in-out;
+											-ms-transition: all .4s ease-in-out;
+											-o-transition: all .4s ease-in-out;
+											transition: all .4s ease-in-out;
+										}
+											#deletecollection button:hover{
+												background: #533b6a;
+												color: #fff;
+											}
+
+/*Fancybox*/
+.fancybox-skin{
+	padding: 0 !important
+}
+.tabbernav {
+  *zoom: 1;
+}
+.tabbernav:before,
+.tabbernav:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.tabbernav:after {
+  clear: both;
+}
+.tabberactive a{
+	background-color: #5a3f74 !important;
+	border: 1px solid #5a3f74 !important;
+	box-shadow: none !important;
+	color: #fff !important;
+}
+
+/*GENERAL*/
+/*Post Details*/
+#myprofile .postdetails{
+	width: 100% !important;
+	font:17px calibrili, calibri;
+	color: #634c78;
+	text-align: left;
+	margin: 0;
+	margin-top: 5px;
+	padding: 5px 0 !important;
+}
+#myprofile .postdetails time{
+	color: #666666;
+	margin-left: 5px;
+}
+#myprofile .postdetails span{
+	color: #515151;
+	margin-left: 10px;
+}
+	#myprofile .postdetails span i{
+		margin-top: 2px;
+		margin-left: 3px;
+	}

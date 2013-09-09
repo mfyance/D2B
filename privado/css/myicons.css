@@ -1,0 +1,281 @@
+.myicon-buscar {
+	width: 23px;
+	height: 24px;
+	background-position: -90px -31px;
+}
+.myicon-facebook {
+	width: 10px;
+	height: 22px;
+	background-position: -118px -3px;
+}
+.myicon-twitter {
+	width: 26px;
+	height: 23px;
+	background-position: -86px -4px;
+}
+.myicon-candado {
+	width: 59px;
+	height: 88px;
+	background-position: -753px -110px;
+}
+.myicon-user-candado {
+	width: 43px;
+	height: 23px;
+	background-position: -762px -74px;
+}
+.myicon-wholesaler{
+	width: 46px;
+	height: 21px;
+	background-position: -759px -76px;
+}
+.myicon-designer{
+	width: 37px;
+	height: 29px;
+	background-position: -866px -68px;
+}
+.myicon-retailer{
+	width: 30px;
+	height: 30px;
+	background-position: -867px -107px;
+}
+.myicon-line1{
+	width: 47px;
+	height: 2px;
+	background-position: -159px -15px;
+}
+.myicon-heart{
+	width: 16px;
+	height: 13px;
+	background-position: -137px -9px;
+}
+.myicon-new-in-sale{
+	width: 74px;
+	height: 62px;
+	background-position: -656px -118px;
+}
+.myicon-mail{
+	width: 32px;
+	height: 23px;
+	background-position: -722px -76px;
+}
+.myicon-manya{
+	width: 18px;
+	height: 16px;
+	background-position: -695px -85px;
+}
+.myicon-user{
+	width: 19px;
+	height: 18px;
+	background-position: -3px -3px;
+}
+.myicon-arrow-down1{	
+	width: 20px;
+	height: 21px;
+	background-position: -28px -3px;
+}
+
+/*Logged Menu*/
+.myicon-w-profile{
+	width: 16px;
+	height: 17px;
+	background-position: -21px -33px;
+}	
+.myicon-w-saved{
+	width: 21px;
+	height: 20px;
+	background-position: -24px -56px;
+}	
+.myicon-w-orders{
+	width: 35px;
+	height: 28px;
+	background-position: -34px -82px;
+}
+.myicon-w-message{
+	width: 18px;
+	height: 18px;
+	background-position: -25px -116px;
+}
+.myicon-w-history{
+	width: 21px;
+	height: 20px;
+	background-position: -25px -141px;
+}
+.myicon-w-logout{
+	width: 20px;
+	height: 20px;
+	background-position: -24px -166px;
+}
+
+/*user Logged*/
+.myicon-user2{
+	width: 20px;
+	height: 20px;
+	background-position: -3px -212px;	
+}
+.myicon-calendar{
+	width: 19px;
+	height: 20px;
+	background-position: -3px -239px;	
+}
+.myicon-like{
+	width: 17px;
+	height: 16px;
+	background-position: -4px -268px;
+}
+.myicon-view{
+	width: 21px;
+	height: 14px;
+	background-position: -4px -292px;	
+}
+.myicon-helper{
+	width: 22px;
+	height: 21px;
+	background-position: -5px -319px;	
+}
+/*profile*/
+.myicon-menulog-1{
+	width: 36px;
+	height: 42px;
+	background-position: -41px -198px;	
+}
+/*collection*/
+.myicon-menulog-2{
+	width: 32px;
+	height: 32px;
+	background-position: -45px -253px;	
+}
+/*orders*/
+.myicon-menulog-3{
+	width: 39px;
+	height: 28px;
+	background-position: -45px -303px;
+}
+/*talk*/
+.myicon-menulog-4{
+	width: 32px;
+	height: 30px;
+	background-position: -47px -341px;	
+}
+/*create*/
+.myicon-sky{
+	width: 39px;
+	height: 26px;
+	background-position: -63px -166px;
+}
+.myicon-close{
+	width: 25px;
+	height: 25px;
+	background-position: -3px -403px;
+}
+.myicon-share{
+	width: 23px;
+	height: 18px;
+	background-position: -4px -376px;
+}
+.myicon-edit{
+	width: 18px;
+	height: 20px;
+	background-position: -7px -350px;
+}
+.myicon-delete{
+	width: 26px;
+	height: 28px;
+	background-position: -6px -470px;
+}
+.myicon-settings{
+	width: 31px;
+	height: 25px;
+	background-position: -5px -507px;
+}
+.myicon-upphoto{
+	width: 20px;
+	height: 18px;
+	background-position: -58px -595px;
+}
+.myicon-upphoto-white{
+	width: 21px;
+	height: 18px;
+	background-position: -91px -595px;
+}
+.myicon-from{
+	width: 22px;
+	height: 23px;
+	background-position: -5px -539px;
+}
+.myicon-tags{
+	width: 20px;
+	height: 21px;
+	background-position: -5px -569px;
+}
+.myicon-correct{
+	width: 14px;
+	height: 14px;
+	background-position: -8px -624px;
+}
+.myicon-cancel{
+	width: 12px;
+	height: 12px;
+	background-position: -5px -642px;
+}
+.myicon-save{
+	width: 12px;
+	height: 13px;
+	background-position: -4px -675px;
+}
+.myicon-experience{
+	width: 23px;
+	height: 19px;
+	background-position: -2px -692px;
+}
+.myicon-plus{
+	width: 11px;
+	height: 13px;
+	background-position: -4px -775px;
+}
+.myicon-point{
+	width: 7px;
+	height: 8px;
+	background-position: -6px -793px;
+}
+.myicon-done{
+	width: 15px;
+	height: 12px;
+	background-position: -5px -659px;
+}
+.myicon-addnew{
+	width: 27px;
+	height: 21px;
+	background-position: -92px -508px;
+}
+.myicon-addvideo{
+	width: 23px;
+	height: 22px;
+	background-position:  -93px -535px;
+}
+.myicon-addimage{
+	width: 23px;
+	height: 22px;
+	background-position: -94px -562px;
+}
+.myicon-place{
+	width: 14px;
+	height: 24px;
+	background-position: -8px -595px;
+}
+.myicon-post-view{
+	width: 28px;
+	height: 16px;
+	background-position:-1px -806px;
+}
+.myicon-update{
+	width: 19px;
+	height: 18px;
+	background-position: -59px -624px;
+}
+	
+	
+	
+	
+
+
+	
