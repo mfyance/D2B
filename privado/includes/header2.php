@@ -64,7 +64,7 @@
 				</a>
 			</h1>
 		</div>
-		<div class="search cleaner">
+		<div id="search" class="cleaner">
 			<form action="#" name="frmBuscar">
 				<input type="text" name="buscar" id="buscar" placeholder="What are you looking for?">
 				<button type="submit"><i class="myicon-buscar"></i></button>
@@ -74,11 +74,11 @@
 	<div id="menu" class="cleaner">
 		<nav class="cleaner">
 			<ul id="mymenu" class="cleaner">
-				<li><a href="designers/">home sign<span></span></a></li>
-				<li><a href="designers/infosign.php">info sign</a></li>
-				<li><a href="designers/lookboks.php">lookboks</a></li>
-				<li><a href="designers/d2b.php">d&b</a></li>
-				<li><a href="designers/forum.php">forum</a></li>
+				<li><a href="#">home signs <span></span></a></li>
+				<li><a href="#">info sign</a></li>
+				<li><a href="#">lookboks</a></li>
+				<li><a href="#">d&b</a></li>
+				<li><a href="#">forum</a></li>
 				<li><a href="#">contact us</a></li>
 				<li>
 					<select class="selectpicker">						

@@ -5,7 +5,6 @@
 	<link rel="stylesheet" href="privado/css/designers.css">	
 	<link rel="stylesheet" href="privado/css/fancybox.css">
 	<link rel="stylesheet" href="privado/css/jquery.bxslider.css">
-	<link rel="stylesheet" href="privado/css/tagit.css">
 	<!--[if lt IE 9]>
 		<style>
 			.content{
@@ -75,169 +74,8 @@
 										</div>
 									</div>
 								</div>
-								<div class="cleaner"><button id="editmyaccount" type="button">Edit my account setting <i class="myicon-settings"></i></button></div>
+								<div class="cleaner"><button type="button">Edit my account setting <i class="myicon-settings"></i></button></div>
 							</div>
-							<!-- ** -->
-							
-							<!-- Hide - Show only with click about this -->
-							<div id="mysettings" class="settings cleaner">
-								<div class="cleaner"><span class="loading"></span></div>
-								<div class="cleaner" id="myset-content">
-									<form id="frm-setting" action="" class="cleaner" >
-										<fieldset class="cleaner">(*) these fields are important and mandatory</fieldset>
-										<div class="cleaner">
-											<div class="myrow cleaner">
-												<div class="cleaner">
-													<label for="username">(*) Username:</label>
-													<input type="text" class="style2" name="username" id="username" placeholder="username">
-													<span id="clone">Hello, <em id="usernameclone"></em> welcome!</span>
-												</div>
-												<div class="cleaner thetooltip">
-													<label for="password">(*) Password:</label>
-													<div class="cleaner thistooltip">
-														<i class="myicon-helper"></i>
-														<div class="mytooltip3 cleaner">
-															<div class="cleaner">
-																<p>rate this designer</p>
-															</div>
-														</div>
-													</div>
-													<input type="password" class="style2" name="password" id="password" placeholder="password">													
-												</div>
-												<div class="cleaner">
-													<label for="repassword">(*) Confirm password:</label>
-													<input type="password" class="style2" name="repassword" id="repassword" placeholder="repassword">
-												</div>
-											</div>
-											<div class="myrow cleaner">
-												<div class="cleaner">
-													<label for="brand">(*) Brand / Company Name:</label>
-													<input type="text" class="style2" name="brand" id="brand" placeholder="brand - company name">
-												</div>
-												<div class="cleaner">
-													<label for="name">(*) Name:</i></label>
-													<input type="text" class="style2" name="name" id="name" placeholder="name">
-												</div>
-												<div class="cleaner">
-													<label for="lastname">(*) Last Name:</label>
-													<input type="text" class="style2" name="lastname" id="lastname" placeholder="lastname">
-												</div>
-											</div>
-											<div class="myrow cleaner">
-												<div class="cleaner">
-													<label for="companyemail">(*) Company E-mail:</label>
-													<input type="text" class="style2" name="companyemail" id="companyemail" placeholder="company email">
-												</div>
-												<div class="cleaner">
-													<label for="personalemail">(*) Personal E-mail:</label>
-													<input type="text" class="style2" name="personalemail" id="personalemail" placeholder="personal email">
-												</div>
-												<div class="cleaner thetooltip">
-													<label for="safetypay">(*) Safety pay account number:</label>
-													<div class="cleaner thistooltip">
-														<i class="myicon-helper"></i>
-														<div class="mytooltip3 cleaner">
-															<div class="cleaner">
-																<p>rate this designer</p>
-															</div>
-														</div>
-													</div>
-													<input type="text" class="style2" name="safetypay" id="safetypay" placeholder="safety pay account number">													
-												</div>
-											</div>
-											<div class="myrow cleaner">
-												<div class="cleaner">
-													<label for="telephono">Telephone:</label>
-													<input type="text" class="style2" name="telephono" id="telephono" placeholder="telephono">
-												</div>
-												<div class="cleaner">
-													<label for="mobile">Mobile:</label>
-													<input type="text" class="style2" name="mobile" id="mobile" placeholder="mobile">
-												</div>									
-											</div>
-											<div class="myrow color-style2 cleaner">
-												<div class="cleaner">
-													<label for="country">(*) Country:</label>
-													<select name="country" id="country" class="selectpicker">
-													    <option>Peru</option>
-													    <option>Italia</option>
-													    <option>USA</option>
-												  	</select>
-												</div>
-												<div class="cleaner">
-													<label for="city">(*) City:</i></label>
-													<select name="city" id="city" class="selectpicker">
-													    <option>New York</option>
-													    <option>New yersey</option>
-													    <option>Boston</option>
-												  	</select>
-												</div>
-												<div class="cleaner">
-													<label for="zipcode">(*) Zip code:</label>
-													<input type="text" name="zipcode" id="zipcode" placeholder="zip code">
-												</div>
-											</div>
-											<div class="myrow color-style2 cleaner">
-												<label for="address">Your address:</label>
-												<input type="text" name="address" id="address" placeholder="address">
-											</div>
-											<div class="myrow multiselect cleaner">
-												<label for="tags4search">Tags for search:</label>
-												<ul name="tags4search" id="tags4search"></ul>
-											</div>
-										</div>
-										<!-- -- -->
-										<div class="cleaner" id="privacy">
-											<h3><i class="myicon-privacy"></i>privacy</h3>
-											<h6>Considered one of the most important designers of the United States by their dress .</h6>
-											<div class="cleaner">
-												<div class="row cleaner">
-													<div class="cleaner">
-														<input type="checkbox" name="privacy1" id="privacy1" value="1" class="check" />
-														<label for="privacy1"></label>												
-													</div>
-													<div class="cleaner"><p>Massa risus nunc! Nisi et et mus lectus risus auctor eu tincidunt adipiscing </p></div>
-												</div>
-												<div class="row cleaner">
-													<div class="cleaner">
-														<input type="checkbox" name="privacy2" id="privacy2" value="1" class="check" />
-														<label for="privacy2"></label>												
-													</div>
-													<div class="cleaner"><p>Massa risus nunc! Nisi et et mus lectus risus auctor eu tincidunt adipiscing </p></div>
-												</div>
-												<div class="row cleaner">
-													<div class="cleaner">
-														<input type="checkbox" name="privacy3" id="privacy3" value="1" class="check" />
-														<label for="privacy3"></label>												
-													</div>
-													<div class="cleaner"><p>Massa risus nunc! Nisi et et mus lectus risus auctor eu tincidunt adipiscing </p></div>
-												</div>
-												<div class="row cleaner">
-													<div class="cleaner">
-														<input type="checkbox" name="privacy4" id="privacy4" value="1" class="check" />
-														<label for="privacy4"></label>												
-													</div>
-													<div class="cleaner"><p>Massa risus nunc! Nisi et et mus lectus risus auctor eu tincidunt adipiscing </p></div>
-												</div>
-												<div class="row cleaner">
-													<div class="cleaner">
-														<input type="checkbox" name="privacy5" id="privacy5" value="1" class="check" />
-														<label for="privacy5"></label>												
-													</div>
-													<div class="cleaner"><p>Massa risus nunc! Nisi et et mus lectus risus auctor eu tincidunt adipiscing </p></div>
-												</div>
-											</div>
-										</div>
-										<!-- - -->
-										<div class="myrow but cleaner">
-											<button class="but-type1 butupdate"><i class="myicon-update animated"></i>update profile</button>
-											<div class="profile-update cleaner animated"><p>this section has been updated successfully. <i class="myicon-done "></i></p></div>
-										</div>
-									</form>
-									
-								</div>
-							</div>
-							<!-- end Settings -->
 							<div id="myprofile-options" class="cleaner">		
 						    	<div class="info-col col-left">						    		
 						    		<dl>
@@ -247,7 +85,7 @@
 									        	<div class="buts cleaner">
 									        		<button type="button" id="aboutme-butcorrect" class="correct"><i class="myicon-correct"></i></button>
 									        	</div>
-									            <textarea name="aboutme-txtarea" id="aboutme-txtarea" placeholder="what about me..." readonly>D2BDesigners to Business - D2BDesigners to Business - D2B</textarea> 
+									            <textarea name="aboutme-txtarea" id="aboutme-txtarea" placeholder="what about me..." readonly>Designers to Business - D2B</textarea> 
 									            <button type="button" class="butsave"><i class="myicon-save animated"></i> Save changes</button>
 									        </div>
 						                </dd>
@@ -258,16 +96,14 @@
 												<div class="box cleaner">
 														<div class="ico"><i class="myicon-experience"></i></div>
 														<input type="text" placeholder="Title here">
-														<textarea name="wexp-ta1" id="wexp-ta1" placeholder="Describe your news (300 character max)"></textarea>
-														<em id="wexp-count-ta1" class="countLimited">0/300</em>
+														<textarea name="experience" id="" placeholder="Describe your news (30 character max)"></textarea>
 														<button type="button" class="butpublic"><i class="myicon-plus animated animated"></i>Public this new</button>
 												</div>
 												<div class="list cleaner">
 														<div class="cleaner">
 															<i class="myicon-point"></i>
 															<input type="text" value="Ej. Fashion designer" readonly>
-															<textarea id="wexp-ta2" name="wexp-ta2" placeholder="Describe your news (300 character max)" readonly>Ej. Whit stuyds in Marangoin Fashion School Milan.</textarea>
-															<em id="wexp-count-ta2" class="countLimited">0/300</em>
+															<textarea id="wexp-txtarea" name="wexp-txtarea" placeholder="Describe your news (30 character max)" readonly>Ej. Whit stuyds in Marangoin Fashion School Milan</textarea>
 														</div>
 														<div class="cleaner">
 															<button type="button" id="wexp-butcancel" class="cancel"><i class="myicon-cancel"></i></button>
@@ -284,9 +120,8 @@
 									            <p>You cand add images or poster of your latest events</p>
 									            <div class="box cleaner">
 									           		<div class="ico"><i class="myicon-experience"></i></div>
-									           		<input type="text" placeholder="Title here">									           		
-									           		<textarea name="addimage-ta2" id="addimage-ta2" placeholder="Describe your news (300 character max)"></textarea>
-									           		<em id="addimage-count-ta2" class="countLimited">0/300</em>
+									           		<input type="text" placeholder="Title here">
+									           		<textarea name="experience" id="" placeholder="1 Describe your news (30 character max)"></textarea>								           		
 									            </div>
 									            <div class="box cleaner">
 									           		<div class="ico">
@@ -315,6 +150,10 @@
 												<button class="butlike" type="button" class="cleaner">
 													<div class="cleaner"><i class="myicon-heart animated"></i></div>
 												</button>
+												<div class="mytooltip cleaner">
+													<p><strong>29</strong> users</p>
+													<p>rate this designer</p>	
+												</div>
 											</div>
 										</figure>
 										<ul id="image-list" class="cleaner"></ul>
@@ -342,8 +181,7 @@
 												        		<div class="box cleaner">
 													           		<div class="ico"><i class="myicon-experience"></i></div>
 													           		<input type="text" placeholder="Title here">
-													           		<textarea id="addnew-ta1" name="addnew-ta1" placeholder="Describe your news (300 character max)"></textarea>
-									           						<em id="addnew-count-ta1" class="countLimited">0/300</em>
+													           		<textarea name="experience" id="" placeholder="Describe your news (30 character max)"></textarea>
 													           </div>
 												        	</div>
 												        	<div class="superbox cleaner">
@@ -374,8 +212,7 @@
 												        		<div class="box cleaner">
 													           		<div class="ico"><i class="myicon-experience"></i></div>
 													           		<input type="text" placeholder="Url here">
-													           		<textarea id="addvideo-ta1" name="addvideo-ta1" placeholder="Describe your news (300 character max)"></textarea>
-									           						<em id="addvideo-count-ta1" class="countLimited">0/300</em>
+													           		<textarea name="experience" id="" placeholder="Describe your news (30 character max)"></textarea>
 													           </div>
 													           <div class="superbox cleaner">
 													        		<div class="box cleaner">
@@ -406,8 +243,7 @@
 												        		<div class="box cleaner">
 													           		<div class="ico"><i class="myicon-experience"></i></div>
 													           		<input type="text" placeholder="Title here">
-													           		<textarea id="addimage-ta1" name="addimage-ta1" placeholder="Describe your news (300 character max)"></textarea>
-									           						<em id="addimage-count-ta1" class="countLimited">0/300</em>
+													           		<textarea name="experience" id="" placeholder="Describe your news (30 character max)"></textarea>
 													           </div>
 												        	</div>
 												        	<div class="superbox cleaner">
@@ -426,45 +262,33 @@
 						                </dd>
 						    		</dl>
 						    		<div class="posts post-news cleaner noedit">
-						    			<div class="cleaner">
-						    				<img src="privado/imagenes/designers/addimages/2.jpg" alt="add iamges">
-						    				<div class="social cleaner">
-							    				<div class="cleaner">
-													<button type="button" class="butshare">Share this news <i class="myicon-share animated"></i>
-														<div class="mytooltip2 cleaner">
-															<div class="cleaner">
-																<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'facebook-share-dialog', 'width=626,height=436'); return false;"><i class="myicon-facebook-2"></i></a>
-															</div>
-															<div class="cleaner">
-																<a href="javascript:(function(){window.twttr=window.twttr||{};var D=550,A=450,C=screen.height,B=screen.width,H=Math.round((B/2)-(D/2)),G=0,F=document,E;if(C>A){G=Math.round((C/2)-(A/2))}window.twttr.shareWin=window.open('http://twitter.com/share','','left='+H+',top='+G+',width='+D+',height='+A+',personalbar=0,toolbar=0,scrollbars=1,resizable=1');E=F.createElement('script');E.src='http://platform.twitter.com/bookmarklets/share.js?v=1';F.getElementsByTagName('head')[0].appendChild(E)}());"><i class="myicon-twitter-2"></i></a>
-															</div>
-														</div>
-													</button>
-													<button class="butlike" type="button" class="cleaner">
-														<div class="cleaner"><i class="myicon-heart animated"></i></div>
-													</button>
-												</div>
-							    				<div class="cleaner"></div>
-							    			</div>		
-						    			</div>
+						    			<div class="cleaner"><img src="privado/imagenes/designers/addimages/2.jpg" alt="add iamges"></div>
 						    			<div class="cleaner">
 						    				<div class="post-but cleaner">
 												<button type="button" id="post-butcancel1" class="cancel"><i class="myicon-cancel"></i></button>
 												<button type="button" id="post-butcorrect1" class="correct"><i class="myicon-correct"></i></button>
 											</div>
 						    				<div class="titulo">
-						    					<textarea class="post-txtarea1" id="post-titulo-1" name="post-txtarea1" placeholder="Describe your news (300 character max)" readonly>BENJAMIN EIDEM STARS IN HUGO BOSS ORANGE FALL/WINTER 2013 WATCHES CAMPAIGN</textarea>
+						    					<textarea class="post-txtarea1" id="post-titulo-1" name="post-txtarea1" placeholder="Describe your news (30 character max)" readonly>BENJAMIN EIDEM STARS IN HUGO BOSS ORANGE FALL/WINTER 2013 WATCHES CAMPAIGN</textarea>
 						    				</div>
 						    				<div class="cleaner">
 						    					<div class="postdetails cleaner"><i class="myicon-calendar"></i>Post:<time>Monday 13-2012</time><span><i class="myicon-like"></i>65</span></div>						    					
 						    				</div>
 						    				<div class="descrip cleaner">
-							    				<textarea class="post-txtarea2 ta_autoheigth"  id="post-descrip-1" name="post-descrip-1" placeholder="Describe your news (300 character max)" readonly>New, his experience goes beyond the academia; since 2009 he works as a volunteer at World Christian Mission. Through this work, he has helped this. New, his experience goes beyond the academia; since 2009 he works as a volunteer at World Christian Mission. Through this work, he has helped this. New, his experience goes beyond the academia; since 2009 he works as a volunteer at World Christian Mission. Through this work, he has helped this. New, his experience goes beyond the academia; since 2009 he works as a volunteer at World Christian Mission. Through this work, he has helped this. New, his experience goes beyond the academia; since 2009 he works as a volunteer at World Christian Mission. Through this work, he has helped this. New, his experience goes beyond the academia; since 2009 he works as a volunteer at World Christian Mission. Through this work, he has helped this. New, his experience goes beyond the academia; since 2009 he works as a volunteer at World Christian Mission. Through this work, he has helped this. New, his experience goes beyond the academia; since 2009 he works as a volunteer at World Christian Mission. Through this work, he has helped this.</textarea>
+							    				<textarea class="post-txtarea2" id="post-descrip-1" name="post-descrip-1" placeholder="Describe your news (30 character max)" readonly>New, his experience goes beyond the academia; since 2009 he works as a volunteer at World Christian Mission. Through this work, he has helped this.</textarea>
 							    			</div>
-							    			<div class="cleaner">
+						    			</div>
+						    			<div class="social cleaner">
+						    				<div class="cleaner">
+												<button type="button" class="butshare">Share this news <i class="myicon-share animated"></i></button>
+												<button class="butlike" type="button" class="cleaner">
+													<div class="cleaner"><i class="myicon-heart animated"></i></div>
+												</button>
+											</div>
+						    				<div class="cleaner">
 						    					<button type="button" class="butsave"><i class="myicon-save animated"></i> Save changes</button>
 						    				</div>
-						    			</div>						    							    						    			
+						    			</div>					    			
 						    		</div>
 						    		<div class="posts post-image cleaner noedit">
 						    			<div class="cleaner mypic"><img src="privado/imagenes/designers/addimages/3.jpg" alt="my post"></div>
@@ -477,20 +301,11 @@
 						    			</div>
 										<div class="postdetails cleaner"><i class="myicon-calendar"></i>Post:<time>Monday 13-2012</time><span><i class="myicon-like"></i>65</span></div>
 										<div class="cleaner">
-											<textarea name="ta_postimage1" id="ta_postimage1">Magna cras cursus tincidunt integer dolor turpis eros enim. Lectus, magna nec ultricies nunc mauris mus etiam. Magna cras cursus tincidunt integer dolor turpis eros enim. Lectus, magna nec ultricies nunc mauris mus etiam. Magna cras cursus tincidunt integer dolor turpis eros enim. Lectus, magna nec ultricies nunc mauris mus etiam. Magna cras cursus tincidunt integer dolor turpis eros enim. Lectus, magna nec ultricies nunc mauris mus etiam.</textarea>
+											<textarea name="">Magna cras cursus tincidunt integer dolor turpis eros enim. Lectus, magna nec ultricies nunc mauris mus etiam.</textarea>
 										</div>
 										<div class="social cleaner">
 						    				<div class="cleaner">
-												<button type="button" class="butshare">Share this news <i class="myicon-share animated"></i>
-													<div class="mytooltip2 cleaner">
-														<div class="cleaner">
-															<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'facebook-share-dialog', 'width=626,height=436'); return false;"><i class="myicon-facebook-2"></i></a>
-														</div>
-														<div class="cleaner">
-															<a href="javascript:(function(){window.twttr=window.twttr||{};var D=550,A=450,C=screen.height,B=screen.width,H=Math.round((B/2)-(D/2)),G=0,F=document,E;if(C>A){G=Math.round((C/2)-(A/2))}window.twttr.shareWin=window.open('http://twitter.com/share','','left='+H+',top='+G+',width='+D+',height='+A+',personalbar=0,toolbar=0,scrollbars=1,resizable=1');E=F.createElement('script');E.src='http://platform.twitter.com/bookmarklets/share.js?v=1';F.getElementsByTagName('head')[0].appendChild(E)}());"><i class="myicon-twitter-2"></i></a>
-														</div>
-													</div>
-												</button>
+												<button type="button" class="butshare">Share this news <i class="myicon-share animated"></i></button>
 												<button class="butlike" type="button" class="cleaner">
 													<div class="cleaner"><i class="myicon-heart animated"></i></div>
 												</button>
@@ -515,16 +330,7 @@
 										</div>
 										<div class="social cleaner">
 						    				<div class="cleaner">
-												<button type="button" class="butshare">Share this news <i class="myicon-share animated"></i>
-													<div class="mytooltip2 cleaner">
-														<div class="cleaner">
-															<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'facebook-share-dialog', 'width=626,height=436'); return false;"><i class="myicon-facebook-2"></i></a>
-														</div>
-														<div class="cleaner">
-															<a href="javascript:(function(){window.twttr=window.twttr||{};var D=550,A=450,C=screen.height,B=screen.width,H=Math.round((B/2)-(D/2)),G=0,F=document,E;if(C>A){G=Math.round((C/2)-(A/2))}window.twttr.shareWin=window.open('http://twitter.com/share','','left='+H+',top='+G+',width='+D+',height='+A+',personalbar=0,toolbar=0,scrollbars=1,resizable=1');E=F.createElement('script');E.src='http://platform.twitter.com/bookmarklets/share.js?v=1';F.getElementsByTagName('head')[0].appendChild(E)}());"><i class="myicon-twitter-2"></i></a>
-														</div>
-													</div>
-												</button>
+												<button type="button" class="butshare">Share this news <i class="myicon-share animated"></i></button>
 												<button class="butlike" type="button" class="cleaner">
 													<div class="cleaner"><i class="myicon-heart animated"></i></div>
 												</button>
@@ -548,16 +354,7 @@
 														<div class="postdetails cleaner"><i class="myicon-calendar"></i>Post:<time>Monday 13-2012</time><span><i class="myicon-like"></i>65</span></div>
 													</figcaption>
 													<div class="cleaner">
-														<button type="button" class="butshare">Share this news <i class="myicon-share animated"></i>
-															<div class="mytooltip2 cleaner">
-																<div class="cleaner">
-																	<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'facebook-share-dialog', 'width=626,height=436'); return false;"><i class="myicon-facebook-2"></i></a>
-																</div>
-																<div class="cleaner">
-																	<a href="javascript:(function(){window.twttr=window.twttr||{};var D=550,A=450,C=screen.height,B=screen.width,H=Math.round((B/2)-(D/2)),G=0,F=document,E;if(C>A){G=Math.round((C/2)-(A/2))}window.twttr.shareWin=window.open('http://twitter.com/share','','left='+H+',top='+G+',width='+D+',height='+A+',personalbar=0,toolbar=0,scrollbars=1,resizable=1');E=F.createElement('script');E.src='http://platform.twitter.com/bookmarklets/share.js?v=1';F.getElementsByTagName('head')[0].appendChild(E)}());"><i class="myicon-twitter-2"></i></a>
-																</div>
-															</div>
-														</button>
+														<button type="button" class="butshare">Share this news <i class="myicon-share animated"></i></button>
 														<button class="butlike" type="button">
 															<div class="cleaner"><i class="myicon-heart animated"></i></div>
 														</button>
@@ -574,27 +371,18 @@
 														<button type="button" id="post-butcorrect1" class="correct"><i class="myicon-correct"></i></button>
 													</div>
 								    				<div class="titulo">
-								    					<textarea class="post-txtarea1" id="post-titulo-1" name="post-txtarea1" placeholder="Describe your news (300 character max)" readonly>BENJAMIN EIDEM STARS IN HUGO BOSS ORANGE FALL/WINTER 2013 WATCHES CAMPAIGN</textarea>
+								    					<textarea class="post-txtarea1" id="post-titulo-1" name="post-txtarea1" placeholder="Describe your news (30 character max)" readonly>BENJAMIN EIDEM STARS IN HUGO BOSS ORANGE FALL/WINTER 2013 WATCHES CAMPAIGN</textarea>
 								    				</div>
 								    				<div class="cleaner">
 								    					<div class="postdetails cleaner"><i class="myicon-calendar"></i>Post:<time>Monday 13-2012</time><span><i class="myicon-like"></i>65</span></div>						    					
 								    				</div>
 								    				<div class="descrip cleaner">
-									    				<textarea class="post-txtarea2" id="post-descrip-1" name="post-descrip-1" placeholder="Describe your news (300 character max)" readonly>New, his experience goes beyond the academia; since 2009 he works as a volunteer at World Christian Mission. Through this work, he has helped this.</textarea>
+									    				<textarea class="post-txtarea2" id="post-descrip-1" name="post-descrip-1" placeholder="Describe your news (30 character max)" readonly>New, his experience goes beyond the academia; since 2009 he works as a volunteer at World Christian Mission. Through this work, he has helped this.</textarea>
 									    			</div>
 								    			</div>
 								    			<div class="social cleaner">
 								    				<div class="cleaner">
-														<button type="button" class="butshare">Share this news <i class="myicon-share animated"></i>
-															<div class="mytooltip2 cleaner">
-																<div class="cleaner">
-																	<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'facebook-share-dialog', 'width=626,height=436'); return false;"><i class="myicon-facebook-2"></i></a>
-																</div>
-																<div class="cleaner">
-																	<a href="javascript:(function(){window.twttr=window.twttr||{};var D=550,A=450,C=screen.height,B=screen.width,H=Math.round((B/2)-(D/2)),G=0,F=document,E;if(C>A){G=Math.round((C/2)-(A/2))}window.twttr.shareWin=window.open('http://twitter.com/share','','left='+H+',top='+G+',width='+D+',height='+A+',personalbar=0,toolbar=0,scrollbars=1,resizable=1');E=F.createElement('script');E.src='http://platform.twitter.com/bookmarklets/share.js?v=1';F.getElementsByTagName('head')[0].appendChild(E)}());"><i class="myicon-twitter-2"></i></a>
-																</div>
-															</div>
-														</button>
+														<button type="button" class="butshare">Share this news <i class="myicon-share animated"></i></button>
 														<button class="butlike" type="button" class="cleaner">
 															<div class="cleaner"><i class="myicon-heart animated"></i></div>
 														</button>
@@ -619,16 +407,7 @@
 												</div>
 												<div class="social cleaner">
 								    				<div class="cleaner">
-														<button type="button" class="butshare">Share this news <i class="myicon-share animated"></i>
-															<div class="mytooltip2 cleaner">
-																<div class="cleaner">
-																	<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'facebook-share-dialog', 'width=626,height=436'); return false;"><i class="myicon-facebook-2"></i></a>
-																</div>
-																<div class="cleaner">
-																	<a href="javascript:(function(){window.twttr=window.twttr||{};var D=550,A=450,C=screen.height,B=screen.width,H=Math.round((B/2)-(D/2)),G=0,F=document,E;if(C>A){G=Math.round((C/2)-(A/2))}window.twttr.shareWin=window.open('http://twitter.com/share','','left='+H+',top='+G+',width='+D+',height='+A+',personalbar=0,toolbar=0,scrollbars=1,resizable=1');E=F.createElement('script');E.src='http://platform.twitter.com/bookmarklets/share.js?v=1';F.getElementsByTagName('head')[0].appendChild(E)}());"><i class="myicon-twitter-2"></i></a>
-																</div>
-															</div>
-														</button>
+														<button type="button" class="butshare">Share this news <i class="myicon-share animated"></i></button>
 														<button class="butlike" type="button" class="cleaner">
 															<div class="cleaner"><i class="myicon-heart animated"></i></div>
 														</button>
@@ -653,16 +432,7 @@
 												</div>
 												<div class="social cleaner">
 								    				<div class="cleaner">
-														<button type="button" class="butshare">Share this news <i class="myicon-share animated"></i>
-															<div class="mytooltip2 cleaner">
-																<div class="cleaner">
-																	<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'facebook-share-dialog', 'width=626,height=436'); return false;"><i class="myicon-facebook-2"></i></a>
-																</div>
-																<div class="cleaner">
-																	<a href="javascript:(function(){window.twttr=window.twttr||{};var D=550,A=450,C=screen.height,B=screen.width,H=Math.round((B/2)-(D/2)),G=0,F=document,E;if(C>A){G=Math.round((C/2)-(A/2))}window.twttr.shareWin=window.open('http://twitter.com/share','','left='+H+',top='+G+',width='+D+',height='+A+',personalbar=0,toolbar=0,scrollbars=1,resizable=1');E=F.createElement('script');E.src='http://platform.twitter.com/bookmarklets/share.js?v=1';F.getElementsByTagName('head')[0].appendChild(E)}());"><i class="myicon-twitter-2"></i></a>
-																</div>
-															</div>
-														</button>
+														<button type="button" class="butshare">Share this news <i class="myicon-share animated"></i></button>
 														<button class="butlike" type="button" class="cleaner">
 															<div class="cleaner"><i class="myicon-heart animated"></i></div>
 														</button>
@@ -685,8 +455,7 @@
 									            	<div class="box cleaner">
 										           		<div class="ico"><i class="myicon-experience"></i></div>
 										           		<input type="text" placeholder="Title here">
-										           		<textarea id="addinsp-ta1" name="addinsp-ta1" placeholder="Describe your news (300 character max)"></textarea>
-									           			<em id="addinsp-count-ta1" class="countLimited">0/300</em>							           		
+										           		<textarea name="experience" id="" placeholder="Describe your news (30 character max)"></textarea>								           		
 										            </div>
 										            <div class="box cleaner">
 										           		<div class="ico">
@@ -857,7 +626,7 @@
 						            </div>		
 						        </div>
 						        <div class="but info-col col-full cleaner cleaner">
-									<button class="but-type1 butupdate"><i class="myicon-update animated"></i>update profile</button>
+									<button class="but-type1 butupdate"><i class="myicon-update animated"></i>see all collection</button>
 									<div class="profile-update cleaner animated"><p>this section has been updated successfully. <i class="myicon-done "></i></p></div>
 								</div>
 						    </div>
@@ -1902,21 +1671,25 @@
 	<script src="privado/js/jquery.easing.1.3.js"></script>
 	<script src="privado/js/jquery.inview.min.js"></script>
 	<script src="privado/js/jquery.transit.js"></script>
+	<!-- Read More -->
+	<!--<script src="privado/js/jquery.readmore-readless"></script>-->
 	<!--  Bottom slider  -->
 	<script src="privado/js/jquery.bxslider.min.js"></script>
-	<!-- Auto resize Tezxtarea -->
-	<script src="privado/js/jquery.autoresize.textarea.js"></script>
-	<!-- Main Menu Designers -->
+	<!-- My apps -->	
 	<script src="privado/js/tabs.js"></script>
-	<!-- Menu in two columns(myprofile-options) -->
-	<script src="privado/js/infogrid.js"></script>
-	<!-- Validate Inputs -->
-	<script src="privado/js/jquery.validate.js"></script>
-	<!-- Multi tags -->
-	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js" type="text/javascript"></script>	
-	<script src="privado/js/jquery.tag.it.min.js"></script>
-	<!-- My apps -->		
 	<script src="privado/js/app.js"></script>
-	<script src="privado/js/app.designers.js"></script>		
+	<script src="privado/js/app.designers.js"></script>	
+	<script src="privado/js/infogrid.js"></script>
+
+		
+		
+<!-- 	// $(document).ready(function(){
+	//     $("#myprofile-options dt").click(function() {
+	//         var p = $(this);
+	//         var position = p.position();
+	//         //alert(position.top);
+	//         $('html, body').animate({scrollTop:position.top}, 900);       
+	//     });
+	// }); -->
 </body>
 </html>
