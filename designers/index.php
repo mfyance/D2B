@@ -46,7 +46,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart animated"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>										
 							</div>
@@ -77,7 +77,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart animated"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -108,7 +108,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart animated"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -139,7 +139,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart animated"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -170,7 +170,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart animated"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -201,7 +201,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart animated"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -232,7 +232,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart animated"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -263,7 +263,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart animated"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -294,7 +294,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart animated"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -325,7 +325,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart animated"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -372,7 +372,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart animated"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -404,7 +404,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart animated"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -436,7 +436,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart animated"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -468,7 +468,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart animated"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -500,7 +500,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart animated"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>

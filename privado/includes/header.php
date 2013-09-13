@@ -11,7 +11,7 @@
 				<span>D2B - Designers to Business</span>				
 			</h1>
 		</div>
-		<div id="search" class="cleaner">
+		<div class="search cleaner">
 			<form action="#" name="frmBuscar">
 				<input type="text" name="buscar" id="buscar" placeholder="What are you looking for?">
 				<button type="submit"><i class="myicon-buscar"></i></button>

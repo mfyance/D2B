@@ -61,11 +61,11 @@
 					</div>
 					<div class="cleaner"></div>
 				</div>
-				<div id="col-second" class="photos cleaner">
+				<div id="col-second" class="photos myhover-style1 cleaner">
 					<div class="photo cleaner">
-						<a href="#" data-start="-webkit-transform: scale(0);-ms-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
+						<a href="#" data-start="-webkit-transform: scale(0);-mz-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
 							<img src="privado/imagenes/collection/1.jpg" alt="now in sale" />							
-							<div class="latest-hover">
+							<div class="myhover">
 								<div class="but cleaner">
 									<button class="but-type1 view" type="button">view this collection</button>
 									<button class="save" type="button">Save for later</button>
@@ -73,9 +73,9 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
-								</div>								
+								</div>										
 							</div>
 						</a>
 						<div class="model">
@@ -94,9 +94,9 @@
 						</div>
 					</div>
 					<div class="photo cleaner">
-						<a href="#" data-start="-webkit-transform: scale(0);-ms-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
+						<a href="#" data-start="-webkit-transform: scale(0);-mz-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
 							<img src="privado/imagenes/collection/2.jpg" alt="now in sale" />							
-							<div class="latest-hover">
+							<div class="myhover">
 								<div class="but cleaner">
 									<button class="but-type1 view" type="button">view this collection</button>
 									<button class="save" type="button">Save for later</button>
@@ -104,7 +104,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -125,9 +125,9 @@
 						</div>
 					</div>
 					<div class="photo cleaner">
-						<a href="#" data-start="-webkit-transform: scale(0);-ms-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
+						<a href="#" data-start="-webkit-transform: scale(0);-mz-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
 							<img src="privado/imagenes/collection/3.jpg" alt="now in sale" />							
-							<div class="latest-hover">
+							<div class="myhover">
 								<div class="but cleaner">
 									<button class="but-type1 view" type="button">view this collection</button>
 									<button class="save" type="button">Save for later</button>
@@ -135,7 +135,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -156,9 +156,9 @@
 						</div>
 					</div>
 					<div class="photo cleaner">
-						<a href="#" data-start="-webkit-transform: scale(0);-ms-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
+						<a href="#" data-start="-webkit-transform: scale(0);-mz-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
 							<img src="privado/imagenes/collection/4.jpg" alt="now in sale" />							
-							<div class="latest-hover">
+							<div class="myhover">
 								<div class="but cleaner">
 									<button class="but-type1 view" type="button">view this collection</button>
 									<button class="save" type="button">Save for later</button>
@@ -166,7 +166,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -187,9 +187,9 @@
 						</div>
 					</div>
 					<div class="photo cleaner">
-						<a href="#" data-start="-webkit-transform: scale(0);-ms-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
+						<a href="#" data-start="-webkit-transform: scale(0);-mz-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
 							<img src="privado/imagenes/collection/5.jpg" alt="now in sale" />							
-							<div class="latest-hover">
+							<div class="myhover">
 								<div class="but cleaner">
 									<button class="but-type1 view" type="button">view this collection</button>
 									<button class="save" type="button">Save for later</button>
@@ -197,7 +197,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -218,9 +218,9 @@
 						</div>
 					</div>					
 					<div class="photo cleaner">
-						<a href="#" data-start="-webkit-transform: scale(0);-ms-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
+						<a href="#" data-start="-webkit-transform: scale(0);-mz-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
 							<img src="privado/imagenes/collection/1.jpg" alt="now in sale" />							
-							<div class="latest-hover">
+							<div class="myhover">
 								<div class="but cleaner">
 									<button class="but-type1 view" type="button">view this collection</button>
 									<button class="save" type="button">Save for later</button>
@@ -228,7 +228,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -249,9 +249,9 @@
 						</div>
 					</div>
 					<div class="photo cleaner">
-						<a href="#" data-start="-webkit-transform: scale(0);-ms-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
+						<a href="#" data-start="-webkit-transform: scale(0);-mz-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
 							<img src="privado/imagenes/collection/2.jpg" alt="now in sale" />							
-							<div class="latest-hover">
+							<div class="myhover">
 								<div class="but cleaner">
 									<button class="but-type1 view" type="button">view this collection</button>
 									<button class="save" type="button">Save for later</button>
@@ -259,7 +259,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -280,9 +280,9 @@
 						</div>
 					</div>
 					<div class="photo cleaner">
-						<a href="#" data-start="-webkit-transform: scale(0);-ms-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
+						<a href="#" data-start="-webkit-transform: scale(0);-mz-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
 							<img src="privado/imagenes/collection/3.jpg" alt="now in sale" />							
-							<div class="latest-hover">
+							<div class="myhover">
 								<div class="but cleaner">
 									<button class="but-type1 view" type="button">view this collection</button>
 									<button class="save" type="button">Save for later</button>
@@ -290,7 +290,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -311,9 +311,9 @@
 						</div>
 					</div>
 					<div class="photo cleaner">
-						<a href="#" data-start="-webkit-transform: scale(0);-ms-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
+						<a href="#" data-start="-webkit-transform: scale(0);-mz-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
 							<img src="privado/imagenes/collection/4.jpg" alt="now in sale" />							
-							<div class="latest-hover">
+							<div class="myhover">
 								<div class="but cleaner">
 									<button class="but-type1 view" type="button">view this collection</button>
 									<button class="save" type="button">Save for later</button>
@@ -321,7 +321,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -342,9 +342,9 @@
 						</div>
 					</div>
 					<div class="photo cleaner">
-						<a href="#" data-start="-webkit-transform: scale(0);-ms-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
+						<a href="#" data-start="-webkit-transform: scale(0);-mz-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
 							<img src="privado/imagenes/collection/5.jpg" alt="now in sale" />							
-							<div class="latest-hover">
+							<div class="myhover">
 								<div class="but cleaner">
 									<button class="but-type1 view" type="button">view this collection</button>
 									<button class="save" type="button">Save for later</button>
@@ -352,7 +352,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -375,7 +375,7 @@
 				</div>
 				<div class="but cleaner">
 					<a href="#"><button class="but-type1">see all collection</button></a>
-				</div>
+				</div>	
 			</div>
 			<div id="seasson" class="cleaner">
 				<div id="sea-first" class="cleaner">
@@ -388,10 +388,10 @@
 					<div class="cleaner"></div>
 				</div>
 				<div id="sea-second" class="cleaner">
-					<div class="photo cleaner">
-						<a href="#" data-start="-webkit-transform: scale(0);-ms-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
+					<div class="photo myhover-style1 cleaner">
+						<a href="#" data-start="-webkit-transform: scale(0);-mz-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
 							<img src="privado/imagenes/collection/1.jpg" alt="now in sale" />					
-							<div class="latest-hover">
+							<div class="myhover">
 								<div class="but cleaner">
 									<button class="but-type1 view" type="button">view this collection</button>
 									<button class="save" type="button">Save for later</button>
@@ -399,7 +399,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -420,10 +420,10 @@
 						</div>
 						<div class="new" data-start="padding-right:10%;opacity:0" data-delay="800" data-finish="padding-right:0%;opacity:1"><i class="myicon-new-in-sale"></i></div>	
 					</div>
-					<div class="photo cleaner">
-						<a href="#" data-start="-webkit-transform: scale(0);-ms-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
+					<div class="photo myhover-style1 cleaner">
+						<a href="#" data-start="-webkit-transform: scale(0);-mz-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
 							<img src="privado/imagenes/collection/2.jpg" alt="now in sale" />							
-							<div class="latest-hover">
+							<div class="myhover">
 								<div class="but cleaner">
 									<button class="but-type1 view" type="button">view this collection</button>
 									<button class="save" type="button">Save for later</button>
@@ -431,7 +431,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -452,10 +452,10 @@
 						</div>
 						<div class="new" data-start="padding-right:10%;opacity:0" data-delay="800" data-finish="padding-right:0%;opacity:1"><i class="myicon-new-in-sale"></i></div>
 					</div>
-					<div class="photo cleaner">
-						<a href="#" data-start="-webkit-transform: scale(0);-ms-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
+					<div class="photo myhover-style1 cleaner">
+						<a href="#" data-start="-webkit-transform: scale(0);-mz-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
 							<img src="privado/imagenes/collection/3.jpg" alt="now in sale" />							
-							<div class="latest-hover">
+							<div class="myhover">
 								<div class="but cleaner">
 									<button class="but-type1 view" type="button">view this collection</button>
 									<button class="save" type="button">Save for later</button>
@@ -463,7 +463,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -484,10 +484,10 @@
 						</div>
 						<div class="new" data-start="padding-right:10%;opacity:0" data-delay="800" data-finish="padding-right:0%;opacity:1"><i class="myicon-new-in-sale"></i></div>
 					</div>
-					<div class="photo cleaner">
-						<a href="#" data-start="-webkit-transform: scale(0);-ms-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
+					<div class="photo myhover-style1 cleaner">
+						<a href="#" data-start="-webkit-transform: scale(0);-mz-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
 							<img src="privado/imagenes/collection/4.jpg" alt="now in sale" />							
-							<div class="latest-hover">
+							<div class="myhover">
 								<div class="but cleaner">
 									<button class="but-type1 view" type="button">view this collection</button>
 									<button class="save" type="button">Save for later</button>
@@ -495,7 +495,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -505,7 +505,7 @@
 							<h6>Fall/Winter13</h6>
 							<span><i class="myicon-line1"></i></span>
 							<div class="autor cleaner">
-								<p>By Loren Designer Namep</p>								
+								<p>By Loren Designer Namep</p>							
 								<div class="ranking cleaner">
 									<div class="mytooltip cleaner">
 										<p><strong>29</strong> users</p>
@@ -516,10 +516,10 @@
 						</div>
 						<div class="new" data-start="padding-right:10%;opacity:0" data-delay="800" data-finish="padding-right:0%;opacity:1"><i class="myicon-new-in-sale"></i></div>
 					</div>
-					<div class="photo cleaner">
-						<a href="#" data-start="-webkit-transform: scale(0);-ms-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
+					<div class="photo myhover-style1 cleaner">
+						<a href="#" data-start="-webkit-transform: scale(0);-mz-transform: scale(0);-moz-transform: scale(0);-o-transform: scale(0);" data-delay="100" data-transit="scale:1">
 							<img src="privado/imagenes/collection/5.jpg" alt="now in sale" />							
-							<div class="latest-hover">
+							<div class="myhover">
 								<div class="but cleaner">
 									<button class="but-type1 view" type="button">view this collection</button>
 									<button class="save" type="button">Save for later</button>
@@ -527,7 +527,7 @@
 								<div class="cont cleaner">									
 									<button type="button" class="cleaner">
 										<span>21</span>
-										<div class="like"><i class="myicon-heart"></i></div>
+										<div class="like"><i class="myicon-heart animated "></i></div>
 									</button>
 								</div>		
 							</div>
@@ -550,6 +550,7 @@
 					</div>
 				</div>
 			</div>
+			<!-- -- -->
 			<div class="pag-seasson cleaner">
 				<div class="cleaner"></div>
 				<div class="cleaner">

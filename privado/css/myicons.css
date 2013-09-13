@@ -13,6 +13,16 @@
 	height: 23px;
 	background-position: -86px -4px;
 }
+.myicon-facebook-2 {
+	width: 11px;
+	height: 20px;
+	background-position: -6px -718px;
+}
+.myicon-twitter-2 {
+	width: 26px;
+	height: 23px;
+	background-position:-3px -746px;
+}	
 .myicon-candado {
 	width: 59px;
 	height: 88px;
@@ -68,11 +78,7 @@
 	height: 18px;
 	background-position: -3px -3px;
 }
-.myicon-arrow-down1{	
-	width: 20px;
-	height: 21px;
-	background-position: -28px -3px;
-}
+
 
 /*Logged Menu*/
 .myicon-w-profile{
@@ -209,7 +215,7 @@
 }
 .myicon-correct{
 	width: 14px;
-	height: 14px;
+	height: 14px;   
 	background-position: -8px -624px;
 }
 .myicon-cancel{
@@ -271,11 +277,111 @@
 	width: 19px;
 	height: 18px;
 	background-position: -59px -624px;
+}	
+.myicon-privacy{
+	width: 32px;
+	height: 28px;
+	background-position: -302px -12px;
 }
 	
+/*Forum*/
+.myicon-for-all{
+	width: 26px;
+	height: 24px;
+	background-position: -149px -169px;
+}
+.myicon-for-categ{
+	width: 26px;
+	height: 26px;
+	background-position: -149px -206px;
+}
+.myicon-for-more{
+	width: 27px;
+	height: 28px;
+	background-position:-149px -245px;
+}
+.myicon-for-discu{
+	width: 22px;
+	height: 26px;
+	background-position:-155px -286px;
+}	
+.myicon-for-create{
+	width: 24px;
+	height: 26px;
+	background-position:-155px -324px;
+}
+.myicon-for-listcategories{
+	width: 18px;
+	height: 18px;
+	background-position:-56px -697px;
+}
+.myicon-for-write{
+	width: 18px;
+	height: 18px;
+	background-position:-157px -360px;
+}
+.myicon-for-comment{
+	width: 16px;
+	height: 15px;
+	background-position:-77px -69px;
+}
+.myicon-for-like{
+	width: 13px;
+	height: 12px;
+	background-position:-80px -91px;
+}
+.myicon-for-view{
+	width: 17px;
+	height: 12px;
+	background-position:-79px -108px;
+}
+.myicon-for-helper{
+	width: 30px;
+	height: 30px;
+	background-position:-109px -134px;
+}
+.myicon-for-tags{
+	width: 16px;
+	height: 16px;	
+	background-position:-79px -126px;
+}
+.myicon-for-post{
+	width: 17px;
+	height: 16px;	
+	background-position:-77px -147px;
+}
+.myicon-for-calendar{
+	width: 14px;
+	height: 15px;	
+	background-position:-57px -59px;
+}
+
+	
+	
+	
+	
+	
+/*Arrow*/
+.myicon-arrow-down1{	
+	width: 20px;
+	height: 21px;
+	background-position: -28px -3px;
+}
+.myicon-arrow-1{
+	width: 10px;
+	height: 9px;	
+	background-position: -95px -679px;
+}
+.myicon-arrow-2{
+	width: 10px;
+	height: 9px;	
+	background-position: -61px -679px;
+}
+
 	
 	
 	
 
 
+	
 	

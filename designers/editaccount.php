@@ -5,7 +5,6 @@
 	<link rel="stylesheet" href="privado/css/designers.css">	
 	<link rel="stylesheet" href="privado/css/fancybox.css">
 	<link rel="stylesheet" href="privado/css/jquery.bxslider.css">
-	<link rel="stylesheet" href="privado/css/tagit.css">
 	<!--[if lt IE 9]>
 		<style>
 			.content{
@@ -75,169 +74,8 @@
 										</div>
 									</div>
 								</div>
-								<div class="cleaner"><button id="editmyaccount" type="button">Edit my account setting <i class="myicon-settings"></i></button></div>
+								<div class="cleaner"><a href="designers/editaccount.php"><button type="button">Edit my account setting <i class="myicon-settings"></i></button></a></div>
 							</div>
-							<!-- ** -->
-							
-							<!-- Hide - Show only with click about this -->
-							<div id="mysettings" class="settings cleaner">
-								<div class="cleaner"><span class="loading"></span></div>
-								<div class="cleaner" id="myset-content">
-									<form id="frm-setting" action="" class="cleaner" >
-										<fieldset class="cleaner">(*) these fields are important and mandatory</fieldset>
-										<div class="cleaner">
-											<div class="myrow cleaner">
-												<div class="cleaner">
-													<label for="username">(*) Username:</label>
-													<input type="text" class="style2" name="username" id="username" placeholder="username">
-													<span id="clone">Hello, <em id="usernameclone"></em> welcome!</span>
-												</div>
-												<div class="cleaner thetooltip">
-													<label for="password">(*) Password:</label>
-													<div class="cleaner thistooltip">
-														<i class="myicon-helper"></i>
-														<div class="mytooltip3 cleaner">
-															<div class="cleaner">
-																<p>rate this designer</p>
-															</div>
-														</div>
-													</div>
-													<input type="password" class="style2" name="password" id="password" placeholder="password">													
-												</div>
-												<div class="cleaner">
-													<label for="repassword">(*) Confirm password:</label>
-													<input type="password" class="style2" name="repassword" id="repassword" placeholder="repassword">
-												</div>
-											</div>
-											<div class="myrow cleaner">
-												<div class="cleaner">
-													<label for="brand">(*) Brand / Company Name:</label>
-													<input type="text" class="style2" name="brand" id="brand" placeholder="brand - company name">
-												</div>
-												<div class="cleaner">
-													<label for="name">(*) Name:</i></label>
-													<input type="text" class="style2" name="name" id="name" placeholder="name">
-												</div>
-												<div class="cleaner">
-													<label for="lastname">(*) Last Name:</label>
-													<input type="text" class="style2" name="lastname" id="lastname" placeholder="lastname">
-												</div>
-											</div>
-											<div class="myrow cleaner">
-												<div class="cleaner">
-													<label for="companyemail">(*) Company E-mail:</label>
-													<input type="text" class="style2" name="companyemail" id="companyemail" placeholder="company email">
-												</div>
-												<div class="cleaner">
-													<label for="personalemail">(*) Personal E-mail:</label>
-													<input type="text" class="style2" name="personalemail" id="personalemail" placeholder="personal email">
-												</div>
-												<div class="cleaner thetooltip">
-													<label for="safetypay">(*) Safety pay account number:</label>
-													<div class="cleaner thistooltip">
-														<i class="myicon-helper"></i>
-														<div class="mytooltip3 cleaner">
-															<div class="cleaner">
-																<p>rate this designer</p>
-															</div>
-														</div>
-													</div>
-													<input type="text" class="style2" name="safetypay" id="safetypay" placeholder="safety pay account number">													
-												</div>
-											</div>
-											<div class="myrow cleaner">
-												<div class="cleaner">
-													<label for="telephono">Telephone:</label>
-													<input type="text" class="style2" name="telephono" id="telephono" placeholder="telephono">
-												</div>
-												<div class="cleaner">
-													<label for="mobile">Mobile:</label>
-													<input type="text" class="style2" name="mobile" id="mobile" placeholder="mobile">
-												</div>									
-											</div>
-											<div class="myrow color-style2 cleaner">
-												<div class="cleaner">
-													<label for="country">(*) Country:</label>
-													<select name="country" id="country" class="selectpicker">
-													    <option>Peru</option>
-													    <option>Italia</option>
-													    <option>USA</option>
-												  	</select>
-												</div>
-												<div class="cleaner">
-													<label for="city">(*) City:</i></label>
-													<select name="city" id="city" class="selectpicker">
-													    <option>New York</option>
-													    <option>New yersey</option>
-													    <option>Boston</option>
-												  	</select>
-												</div>
-												<div class="cleaner">
-													<label for="zipcode">(*) Zip code:</label>
-													<input type="text" name="zipcode" id="zipcode" placeholder="zip code">
-												</div>
-											</div>
-											<div class="myrow color-style2 cleaner">
-												<label for="address">Your address:</label>
-												<input type="text" name="address" id="address" placeholder="address">
-											</div>
-											<div class="myrow multiselect cleaner">
-												<label for="tags4search">Tags for search:</label>
-												<ul name="tags4search" id="tags4search"></ul>
-											</div>
-										</div>
-										<!-- -- -->
-										<div class="cleaner" id="privacy">
-											<h3><i class="myicon-privacy"></i>privacy</h3>
-											<h6>Considered one of the most important designers of the United States by their dress .</h6>
-											<div class="cleaner">
-												<div class="row cleaner">
-													<div class="cleaner">
-														<input type="checkbox" name="privacy1" id="privacy1" value="1" class="check" />
-														<label for="privacy1"></label>												
-													</div>
-													<div class="cleaner"><p>Massa risus nunc! Nisi et et mus lectus risus auctor eu tincidunt adipiscing </p></div>
-												</div>
-												<div class="row cleaner">
-													<div class="cleaner">
-														<input type="checkbox" name="privacy2" id="privacy2" value="1" class="check" />
-														<label for="privacy2"></label>												
-													</div>
-													<div class="cleaner"><p>Massa risus nunc! Nisi et et mus lectus risus auctor eu tincidunt adipiscing </p></div>
-												</div>
-												<div class="row cleaner">
-													<div class="cleaner">
-														<input type="checkbox" name="privacy3" id="privacy3" value="1" class="check" />
-														<label for="privacy3"></label>												
-													</div>
-													<div class="cleaner"><p>Massa risus nunc! Nisi et et mus lectus risus auctor eu tincidunt adipiscing </p></div>
-												</div>
-												<div class="row cleaner">
-													<div class="cleaner">
-														<input type="checkbox" name="privacy4" id="privacy4" value="1" class="check" />
-														<label for="privacy4"></label>												
-													</div>
-													<div class="cleaner"><p>Massa risus nunc! Nisi et et mus lectus risus auctor eu tincidunt adipiscing </p></div>
-												</div>
-												<div class="row cleaner">
-													<div class="cleaner">
-														<input type="checkbox" name="privacy5" id="privacy5" value="1" class="check" />
-														<label for="privacy5"></label>												
-													</div>
-													<div class="cleaner"><p>Massa risus nunc! Nisi et et mus lectus risus auctor eu tincidunt adipiscing </p></div>
-												</div>
-											</div>
-										</div>
-										<!-- - -->
-										<div class="myrow but cleaner">
-											<button class="but-type1 butupdate"><i class="myicon-update animated"></i>update profile</button>
-											<div class="profile-update cleaner animated"><p>this section has been updated successfully. <i class="myicon-done "></i></p></div>
-										</div>
-									</form>
-									
-								</div>
-							</div>
-							<!-- end Settings -->
 							<div id="myprofile-options" class="cleaner">		
 						    	<div class="info-col col-left">						    		
 						    		<dl>
@@ -1906,17 +1744,12 @@
 	<script src="privado/js/jquery.bxslider.min.js"></script>
 	<!-- Auto resize Tezxtarea -->
 	<script src="privado/js/jquery.autoresize.textarea.js"></script>
-	<!-- Main Menu Designers -->
-	<script src="privado/js/tabs.js"></script>
 	<!-- Menu in two columns(myprofile-options) -->
 	<script src="privado/js/infogrid.js"></script>
-	<!-- Validate Inputs -->
-	<script src="privado/js/jquery.validate.js"></script>
-	<!-- Multi tags -->
-	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js" type="text/javascript"></script>	
-	<script src="privado/js/jquery.tag.it.min.js"></script>
-	<!-- My apps -->		
+	<!-- My apps -->	
+	<script src="privado/js/tabs.js"></script>
 	<script src="privado/js/app.js"></script>
-	<script src="privado/js/app.designers.js"></script>		
+	<script src="privado/js/app.designers.js"></script>	
+
 </body>
 </html>

@@ -394,13 +394,181 @@ section#cuerpo{
 							width: 100%;
 						}
 						#ajax-menu #myprofile textarea{
-							height: 60px;
+							text-align: left;
+							height: auto;
+							min-height: 90px !important;
 							margin-bottom: 7px;
 							-webkit-box-sizing: border-box;
 							-moz-box-sizing: border-box;
 							box-sizing: border-box;
 						}
-						
+						/*My Settings*/
+						#ajax-menu .settings{
+							width: 100%;
+							padding: 10px 20px;
+							background: transparent;							
+							display: block;
+						}		
+							#ajax-menu .settings .bootstrap-select{
+								width: 100%;
+								display: block;
+								margin: 0;
+								position: static;
+							}
+								#ajax-menu .settings .bootstrap-select div.caret{
+									border-top: 9px solid #535353;
+									border-right: 6px solid transparent;
+									border-left: 6px solid transparent;
+								}
+								#ajax-menu .settings .bootstrap-select>button{
+									border-left: 1px solid #b2b2b2;
+									border-top: 1px solid #b2b2b2;
+									border-bottom: 1px solid #fff;
+									border-right: 1px solid #fff;
+									border-radius: 4px;
+									resize: none;
+									padding: 10px 8px;
+									font: 17px calibri;
+									color: #666666;
+									width: 100%;
+									background: #fff;
+								}
+									#ajax-menu .settings .dropdown-menu li>a{
+										font: 17px calibri !important;
+										color: #666666 !important;
+									}
+									#ajax-menu .settings .dropdown-menu li>a:hover{
+										background: #e2e2e2 !important;
+									}
+
+							#ajax-menu .settings>div:first-child{
+								width: 100%;
+								display: block;
+								text-align: center;								
+								margin: 0 auto;					
+							}
+								#ajax-menu .settings>div:first-child span>img{
+									padding-top: 61px;
+								}
+							#ajax-menu .settings fieldset{
+								font: 17px calibri, calibrili;
+								color: #666666;
+								margin: 10px 0;
+								padding: 0;
+								float: left;
+								display: block;
+							}
+							#ajax-menu .settings .myrow{
+								width: 100%;
+								margin-top: 35px;
+								display: block;
+								float: left;
+							}								
+								#ajax-menu .settings .myrow>div{
+									width: 32%;
+									float: left;
+									position: relative;
+								}
+								#ajax-menu .settings .myrow>div:nth-child(1),
+								#ajax-menu .settings .myrow>div:nth-child(3){
+									margin: 0;
+								}
+								#ajax-menu .settings .myrow>div:nth-child(2){								
+									margin: 0 2%;
+								}
+								/*inputs-label*/
+								#ajax-menu .settings label{
+									font: 18px calibrili, calibri;
+									color: #181818;
+									margin-bottom: 10px;
+									display: block;							
+								}
+								#ajax-menu .settings input.style2{
+									background-color: #e2e2e2;
+									border: none !important;
+									color: #666666;
+									font: 18px calibrili, calibri !important;
+								}
+								/*button update*/
+								#ajax-menu .myrow.but{
+									margin: 0;
+									margin-top: 40px;
+									text-align: center;
+								}
+								
+							#ajax-menu .settings .myrow.color-style2 label{
+								color: #583a71 !important;
+							}	
+							#ajax-menu .settings .myrow.multiselect{
+								width: 100%;
+							}
+								#ajax-menu .settings .myrow.multiselect label{
+									color: #181818 !important
+								}
+								#ajax-menu .settings .myrow.multiselect #tags4search{
+									width: 80% !important;
+									border-radius: 4px;
+									resize: none;
+									font: 17px calibrili, calibri;
+									color: #666666;	
+									width: 100%;
+									background-color: #e2e2e2;
+									border: none !important;
+									color: #666666;
+									font: 18px calibrili, calibri !important;										
+								}
+								
+								/*The tooltip*/
+								#ajax-menu .settings .thetooltip label{
+									display: inline-block;
+								}
+								
+							/*Privacy*/
+							#ajax-menu #privacy{
+								width: 100%;
+								display: block;
+								margin-top: 40px;							
+							}
+								#ajax-menu #privacy h3{
+									font: 38px vevey;
+									color: #6a477f !important;
+									word-spacing: 3px;
+									letter-spacing: 3px;
+								}
+									#ajax-menu #privacy h3 i{
+										vertical-align: middle;
+									}
+								#ajax-menu #privacy h6{
+									font: 17px calibrili, calibri;
+									color: #666666;
+									margin-bottom: 30px;
+									margin-top: 10px;
+								}
+								#ajax-menu #privacy .row{
+									width: 100%;
+									margin: 5px 0;								
+								}
+									#ajax-menu #privacy .row>div{
+										float: left;
+									}
+									#ajax-menu #privacy .row>div:first-child{
+										width: 5%;
+									}
+										#ajax-menu #privacy .row>div:first-child label{
+											cursor: pointer;
+										}
+									#ajax-menu #privacy .row>div:last-child{
+										width: 95%;
+									}
+										#ajax-menu #privacy .row>div:last-child p{
+											line-height: 25px !important;
+											font: 18px calibrili, calibri;
+											color: #666666;
+										}
+								
+
+
+						/*My Account*/
 						#ajax-menu .myaccount{
 							margin: 10px 0;
 							width: 100%;
@@ -509,6 +677,17 @@ section#cuerpo{
 									border: none;
 									padding: 10px 0;
 									font: 17px calibrili, calibri;
+									-webkit-transition: all .1s ease-in-out;
+									-moz-transition: all .1s ease-in-out;
+									-ms-transition: all .1s ease-in-out;
+									-o-transition: all .1s ease-in-out;
+									transition: all .1s ease-in-out;
+								}
+								#ajax-menu .myaccount>div:nth-child(3) button:hover{
+									background: #a5a5a5;
+								}
+								#ajax-menu .myaccount>div:nth-child(3) button:active{
+									background: #919191;
 								}
 						#ajax-menu .profile-menu{
 							margin: 10px 0;
@@ -824,7 +1003,7 @@ section#cuerpo{
 									top: 45px;
 									left: 0;
 								    width: 100%;
-									height: 370px;
+									height: 410px;
 									z-index: 5;
 									border-bottom-left-radius: 7px;
 									border-bottom-right-radius: 7px;
@@ -928,7 +1107,7 @@ section#cuerpo{
 						#myprofile .posts{
 							width: 100%;
 							position: relative;
-							padding: 20px 0;
+							padding: 15px 0;
 							border-top: 1px solid #fff;
 							border-bottom: 1px solid #ccc;
 						}							
@@ -985,6 +1164,7 @@ section#cuerpo{
 							}
 								#myprofile .post-news>div:nth-child(1) img{
 									width: 100%;
+									margin-bottom: 10px;
 								}								
 							#myprofile .post-news>div:nth-child(2){
 								width: 375px;
@@ -1008,16 +1188,16 @@ section#cuerpo{
 									}
 									#myprofile .post-news .descrip{
 										width: 100%;
-									}
-								
+									}								
 									#myprofile .post-news .post-txtarea2{
 										text-transform: none;
 										color: #6a5083;
 										width: 100%;
-										height: 106px  !important;
-										margin: 0;
-										padding: 2px 5px !important;
-										}									
+										/*height: 106px ;*/
+										height: auto;
+										padding: 3px 5px !important;
+										white-space: pre-line;
+									}									
 							
 						/*Post Photos*/
 						#myprofile .post-image{
@@ -1096,7 +1276,7 @@ section#cuerpo{
 									}
 		
 					#myprofile .but {					
-						margin: 80px 0;
+						margin: 50px 0;
 					}
 						#myprofile .but button{
 							margin: 0 auto;
@@ -1110,8 +1290,8 @@ section#cuerpo{
 							}
 						#myprofile .but div.profile-update{
 							text-align: center;
-							margin: 0 auto;
-							margin-top: 20px;
+							margin: 20px auto !important;
+							float: none;
 							visibility: hidden;
 						}
 							#myprofile .but div.profile-update p{
