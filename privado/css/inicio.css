@@ -27,94 +27,7 @@ section#cuerpo{
 		position: relative;
 		background: transparent;
 	}
-	.nologged .ad-slider .ad{
-		padding: 10px 0 !important;
-	}	
-		.nologged .ad-slider .candado{
-			width: 160px;
-			height: 160px;
-			border-radius: 160px;
-			display: block;
-			float: left;
-			background: #fff;
-			border: 1px solid #e6e2e9;			
-			text-align: center;
-			line-height: 80px;
-			margin: 0 40px 0 20px;
-			position: relative;
-		}
-		.nologged .ad-slider .bx-wrapper .bx-controls-direction a {
-			position: absolute;
-			top: 75px;
-			right: 90px;
-			width: 55px;
-			height: 55px;
-			text-indent: -9999px;
-			z-index: 5;
-			background: transparent;
-		}
-			.nologged .ad-slider .candado .user-candado{
-				position: absolute;
-				top: -10px;
-				right: -20px;
-				width: 60px;
-				height: 60px;
-				border-radius: 60px;
-				background: #cab7de;
-				text-align: center;
-			}
-				.nologged .ad-slider .candado .user-candado i{
-					position: absolute;
-					left: 9px;
-					top: 15px;
-				}
-
-		.nologged .ad-slider .titulo{
-			width: 780px;
-			height: 100%;
-			display: block;
-			float: left;
-			background: transparent;
-		}
-			.nologged .ad-slider .titulo h2{
-				font: 71px vevey;
-				color: #533b6a;
-				letter-spacing: 5px;
-				word-spacing: 4px;
-			}
-			.nologged .ad-slider .titulo h3{
-				font: 50px vevey;
-				color: #8c8c8c;
-				letter-spacing: 2px;
-				word-spacing: 3px;
-			}
-			.nologged .ad-slider div.arrow{
-				width: 54px;
-				height: 54px;
-				border-radius: 54px;
-				background: #fff;
-				border: 2px solid #634c78;
-				position: absolute;
-				right: 90px;
-				top: 60px;
-				box-shadow: 0px 3px 2px #D8D8D7;
-				z-index: 1;
-				cursor: pointer;
-			}
-				.nologged .ad-slider div.arrow span{
-					display: block;
-					width: 20px;
-					height: 20px;
-					margin-top: 14px;
-					margin-left: 9px;
-					border-top: 1px solid #634c78; 
-					border-right: 1px solid #634c78;
-					-webkit-transform: rotate(45deg);
-					-moz-transform: rotate(45deg);
-					-ms-transform: rotate(45deg);
-					-o-transform: rotate(45deg);
-					transform: rotate(45deg);
-				}		
+		
 	.logged #cuerpo #second{
 		display: none !important;
 	}	
@@ -334,6 +247,62 @@ section#cuerpo{
 				margin-bottom: 35px !important;
 			}
 	
+/*My Tooltip Home*/
+#inicio .photo div.model .autor .mytooltip{
+	width: 140px;
+	border: 1px solid #6c3d98;
+	border-radius: 4px;
+	background: #fff;
+	position: absolute;
+	top: -130px;
+	right: 0;
+	z-index: 2;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+	#inicio .photo div.model .autor .mytooltip:after{
+	content: "";
+	position: absolute;
+	right: 22px;
+	top: 47px;
+	width: 10px;
+	height: 10px;
+	border-bottom: 1px solid #6c3d98;
+	border-right: 1px solid #6c3d98;
+	background: #fff;
+	z-index: -1;
+	-webkit-transform: rotate(45deg);
+	-moz-transform:    rotate(45deg);
+	-ms-transform:     rotate(45deg);
+	-o-transform:      rotate(45deg);
+	}
+	#inicio .photo div.model .autor .mytooltip p{
+		font: 17px calibrili, calibri;
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 2px 0;
+	}
+	#inicio .photo div.model .autor .mytooltip p:first-child{
+		background: #685584;
+		color: #fff;
+	}
+		#inicio .photo div.model .autor .mytooltip p:first-child strong{
+			font-size: 19px;
+			font-weight: bold;
+		}
+#inicio .photo div.model .autor .mytooltip p:last-child{
+		display: block;
+		width: 100%;
+		text-align: center;
+		color: #696969;
+	}
+
 
 /*Responsive*/
 @media only screen and (max-width : 1024px){

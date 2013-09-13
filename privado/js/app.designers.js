@@ -3,8 +3,12 @@
 	$(document).on('ready', init);
 	
 	function init(){
+		// My textarea Auto Height  		
+  		$("textarea").autosize();
+
 		// placeholder
 		$('input, textarea').placeholder();
+		
 		// Pop ups to iamges
     	$('.fancybox').fancybox();
   		
@@ -15,20 +19,16 @@
 			slideWidth: 240,
 			slideMargin: 10
 		});
+  
+  		// Limited tezxtarea  		
+  		init_contadorTa("addnew-ta1","addnew-count-ta1", 300);
+  		init_contadorTa("addvideo-ta1","addvideo-count-ta1", 300);
+  		init_contadorTa("addimage-ta2","addimage-count-ta2", 300);
+  		init_contadorTa("addimage-ta1","addimage-count-ta1", 300);
+  		init_contadorTa("addinsp-ta1","addinsp-count-ta1", 300);
+  		init_contadorTa("wexp-ta1","wexp-count-ta1", 300);
+  		init_contadorTa("wexp-ta2","wexp-count-ta2", 300);
 
-		// Tooltip
-		$('.butshare').mouseover(function(){
-            $('.mytooltip', this).css({
-            	opacity: '1',
-            	top: '-60px'
-            });
-        }).mouseout( function(){
-            $('.mytooltip', this).css({
-            	opacity: '0',
-            	top: '-130px'
-            });
-        });
-  		
 		// Progressbar
 		$('.progressbar').removeClass('loader');	    
 		$('.begin-progress').click(function(){
@@ -176,11 +176,150 @@
 			$('.profile-update').css('visibility', 'visible');
 		});	
 
-		// Read more
-  		// $(".vermas").readMoreReadLess({
-    //         itemInSummary: 1
-    //     });
+		// Show my Settings		
+		$('#mysettings').hide();
+		$('#editmyaccount').on('click',function(e){
+			$('#mysettings').show();
+			$('.myaccount, #myprofile-options').hide();
+		    $('#myset-content').hide();
+		   	var $mysettings = $('#mysettings .loading').html('<img src="privado/imagenes/general/fancybox_loading.gif"/>');			     
+		    setTimeout(function(){
+		        $mysettings.html('');
+		        $('#myset-content').show();
+		    }, 1110);
 
+		    $('.tabbernav').click(function(){
+				$('.myaccount, #myprofile-options').show();
+				$('#mysettings').hide();
+			});
+		    e.preventDefault();
+		});
+
+		// Placeholder to Inputs Tags
+		$('#tags4search>li:first input').attr('placeholder','Example: lorenipsum , fashion');
+		$('#tags4search').on('click', function(){
+			$('#tags4search>li:first input').attr('placeholder','');
+		});
+
+		// Active Tags inputs
+		 $('#tags4search').tagit();
+
+		// Clone input
+		$("input#username").keyup(
+            function(){
+            	var valinput = $('input#username').val();
+            	$('#usernameclone').html(valinput);
+            }
+        );
+		// Validate content inputs
+		$('#frm-setting').on('cut copy paste', function(e){
+			e.preventDefault();
+		}) 
+			// New Method
+		$.validator.addMethod(
+			"regex",
+			function(value, element, regexp) {
+				var re = new RegExp(regexp);
+				return this.optional(element) || re.test(value);
+			},
+			""
+		);      
+		$('#frm-setting').validate({
+			rules: {
+				username: {
+					required: true,
+					regex:"^[a-zA-Z\u00E1\u00E9\u00ED\u00F3\u00FA \u00C1\u00C9\u00CD\u00D3\u00DA \u00F1\u00D1]+$"			
+				},
+				password: {
+					required: true,
+					minlength: 5						
+				},
+				repassword: {
+					required: true,
+					minlength: 5,
+					equalTo: "#password"			
+				},
+				brand: {
+					required: true
+				},
+				name: {
+					required: true,
+					regex:"^[a-zA-Z\u00E1\u00E9\u00ED\u00F3\u00FA \u00C1\u00C9\u00CD\u00D3\u00DA \u00F1\u00D1]+$"		
+				},
+				lastname:{
+					required: true,
+					regex:"^[a-zA-Z\u00E1\u00E9\u00ED\u00F3\u00FA \u00C1\u00C9\u00CD\u00D3\u00DA \u00F1\u00D1]+$"
+				},
+				companyemail:{
+					required: true,
+					email: true
+				},
+				personalemail:{
+					required: true,
+					email: true
+				},
+				safetypay:{
+					required: true,
+					regex : "^[0-9 ()\-\/\*]{6,50}$"
+				},
+				telephono:{
+					regex : "^[0-9 ()\-\/\*]{6,50}$"
+				},
+				mobile:{
+					regex : "^[0-9 ()\-\/\*]{6,50}$"
+				},
+				zipcode:{
+					regex : "^[0-9 ()\-\/\*]{6,50}$"
+				}
+			},
+			messages: {
+				username: {
+					required: 'Lorem ipsum',
+					regex: "Only letters"				
+				},
+				password: {
+					required: 'Lorem ipsum',
+					minlength: 'Min. 5 characters'						
+				},
+				repassword: {
+					required: 'Lorem ipsum',
+					minlength: 'Min. 5 characters',
+					equalTo: 'Not match'			
+				},
+				brand: {
+					required: 'Lorem ipsum'
+				},
+				name: {
+					required: 'Lorem ipsum',
+					regex: "Only letters"
+				},
+				lastname:{
+					required: 'Lorem ipsum',
+					regex: "Only letters"
+				},
+				companyemail:{
+					required: 'Lorem ipsum',
+					email: 'Only email'
+				},
+				personalemail:{
+					required: 'Lorem ipsum',
+					email: 'Only email'
+				},
+				safetypay:{
+					required: 'Lorem ipsum',
+					regex: "Only numbers"
+				},
+				telephono:{
+					regex: "Only numbers"
+				},
+				mobile:{
+					regex: "Only numbers"
+				},
+				zipcode:{					
+					regex : "Only zipcode"
+				}
+			}
+		});
 	}		
 
 	function viewPosts(){
@@ -189,8 +328,8 @@
 		$('.butoldview').clone().end().hide().appendTo($('.old-posts').parent('.view-old-posts'));
 		$('.old-posts').next().show();	
 	}
-
 })(jQuery);
+
 // Get info & show preview
 function GetFileInfo() {
     var fileInput = document.getElementById("inp-addprofile");    
@@ -202,6 +341,8 @@ function GetFileInfo() {
     };
 }
 
+
+// List new images
 (function () {
 	var input = document.getElementById("addimages1"), 
 		formdata = false;
@@ -232,7 +373,7 @@ function GetFileInfo() {
 					formdata.append("images[]", file);
 				}
 			}	
-		}
-		
+		}		
 	}, false);
 }());
+

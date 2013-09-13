@@ -3,31 +3,14 @@
 	$(document).on('ready', init);
 	
 	function init(){
-		var irTop = $('#gototop');
-		$(irTop).hide();
-		$(window).scroll(function() {
-			$(this).scrollTop() >= 400 ? $(irTop).fadeIn("slow") : $(irTop).fadeOut("slow");
-		});		
-		$(irTop).click(toHead);	
-
+		
 		// Placeholder
 		$('input, textarea').placeholder();
 		// first slider      
 		$('.bxslider').bxSlider();
 		// cambiar color		
 		$('.bx-next').hover(cambiar, nocambiar);
-		$('.ranking').mouseover(function(){
-            $('.mytooltip', this).css({
-            	opacity: '1',
-            	top: '-60px'
-            });
-        }).mouseout( function(){
-            $('.mytooltip', this).css({
-            	opacity: '0',
-            	top: '-130px'
-            });
-        });	
-
+		
 		// isotope
 		var $container = $('#col-second');    
 		$container.imagesLoaded( function(){
@@ -82,13 +65,6 @@
 				}
 			});
 		}		
-	}
-	function toHead(e){
-		e.preventDefault();
-		$('body,html').animate({ 
-			scrollTop: 0
-		}, 2000);
-		return false;
 	}	
 	function cambiar(){
 		$('div.arrow').stop().css({
