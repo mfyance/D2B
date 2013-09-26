@@ -56,13 +56,11 @@
 				</ul>
 			</div>
 		</div>
-		<div id="logo" class="cleaner">
-			<h1>
-				<a href="./">
-					<img src="privado/imagenes/general/logo.png" alt="Designers to Business" title="D2B">
-					<span>D2B - Designers to Business</span>
-				</a>
-			</h1>
+		<div id="logo" class="cleaner">			
+			<a href="./">
+				<img src="privado/imagenes/general/logo.png" alt="Designers to Business" title="D2B">
+				<span>D2B - Designers to Business</span>
+			</a>		
 		</div>
 		<div class="search cleaner">
 			<form action="#" name="frmBuscar">
@@ -75,20 +73,12 @@
 		<nav class="cleaner">
 			<ul id="mymenu" class="cleaner">
 				<li><a href="designers/">home sign<span></span></a></li>
-				<li><a href="designers/infosign.php">info sign</a></li>
+				<li><a href="infosign.php">info sign</a></li>
 				<li><a href="designers/lookboks.php">lookboks</a></li>
-				<li><a href="designers/d2b.php">d&b</a></li>
-				<li><a href="designers/forum.php">forum</a></li>
+				<li><a href="aboutus.php">d&b</a></li>
+				<li><a href="forum.php">forum</a></li>
 				<li><a href="#">contact us</a></li>
-				<li>
-					<select class="selectpicker">						
-						<optgroup label="CHANGE TYPE OF USER">							
-							<option data-icon="myicon-wholesaler">Wholesaler</option>
-							<option data-icon="myicon-designer">Designer</option>
-							<option data-icon="myicon-retailer">Retailers</option>
-						</optgroup>
-					</select>
-				</li>
+				<li><a href="#"></a></li><!-- Select picker Hidden -->
 			</ul>
 			<ul id="social">
 				<li><a href="http://www.facebook.com/manya" target="_blank"><i class="myicon-facebook"></i></a></li>

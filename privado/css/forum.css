@@ -10,6 +10,27 @@
 	-o-transition: all .5s ease-in-out;
 	transition: all .5s ease-in-out;
 }
+/*But post*/
+#cuerpo .posttheme{
+	max-width: 225px;
+	float: right !important;
+	margin-top: 20px;
+}
+	#cuerpo .posttheme .post{
+		min-width: 225px;
+	}
+/*Date & Time*/
+#cuerpo .date{
+		margin-bottom: 10px;
+		text-align: right;
+	}
+		#cuerpo .date i{
+			vertical-align: -2px;
+		}
+		#cuerpo .date em{
+			font: 17px calibrili, calibri;
+			color: #6a5083
+		}
 section#cuerpo{
 	width: 1000px;
 	margin: 0 auto;
@@ -180,11 +201,7 @@ section#cuerpo{
 			width: 100%;
 			margin: 0;
 		}
-			#cuerpo article#createtheme #richtext .posttheme{
-				max-width: 225px;
-				float: right;
-				margin-top: 20px;
-			}
+			
 			#cuerpo article#createtheme #richtext>div{
 				float: none;
 				width: 100%;
@@ -214,19 +231,6 @@ section#cuerpo{
 				#cuerpo article#createtheme .row>div:last-child{
 					width: 80%;
 				}
-	
-		#cuerpo article#createtheme .date{
-			margin-bottom: 10px;
-			float: right;
-		}
-			#cuerpo article#createtheme .date i{
-				vertical-align: -2px;
-			}
-			#cuerpo article#createtheme .date em{
-				font: 17px calibrili, calibri;
-				color: #6a5083
-			}
-
 	/*My forum themes*/
 	#cuerpo article#forumthemes{
 		/*display: none;*/
@@ -504,3 +508,75 @@ section#cuerpo{
 							color: #6c567f;
 							font: 17px calibrili,calibri;
 						}
+	/*Be part discution*/
+	#cuerpo article#bepartdiscution{
+		width: 100%;
+		margin-top: 30px;
+	}
+		#cuerpo article#bepartdiscution h3{
+			font:28px vevey;
+			color: #4c3760;
+			text-transform: uppercase;
+			word-spacing: 2px;
+			letter-spacing: 2px;
+		}
+		#cuerpo article#bepartdiscution p{
+			color: #666666;
+			font: 17px calibrili,calibri;
+		}
+		#cuerpo article#bepartdiscution .box-post{
+			margin-left: 100px;
+			width: 900px;
+			margin-top: 40px;
+		}
+			#cuerpo article#bepartdiscution .box-post #avatar{				
+				width: 90px;
+				margin-right: 15px;	
+				float: left;
+			}
+				#cuerpo article#bepartdiscution .box-post #avatar img{
+					border: 2px solid #ddd;
+					-webkit-box-sizing: border-box;
+					-moz-box-sizing: border-box;
+					box-sizing: border-box;
+				}			
+			#cuerpo article#bepartdiscution .box-post #comment{
+				width: 795px;
+				float: left;
+			}
+
+				#cuerpo article#bepartdiscution .box-post #comment>div{
+					float: none;
+					width: 100%;
+				}
+				#cuerpo article#bepartdiscution .box-post #comment>div:first-child>div{
+					width: 50%;
+					float: left;
+				}
+					#cuerpo article#bepartdiscution .box-post #comment>div:first-child h5{
+						font: 30px vevey;
+						color: #59327c;
+					}
+					#cuerpo article#bepartdiscution .box-post #comment>div:first-child i{
+						vertical-align: -1px;
+					}
+					#cuerpo article#bepartdiscution .box-post #comment>div:first-child h5>i{
+						display: none;
+					}
+				#cuerpo article#bepartdiscution .box-post #comment>div:last-child textarea{
+					width: 100%;
+					height: 150px;
+					margin-top: 10px;
+					padding: 10px !important;
+					resize: none;
+				}
+				/*Discution  (no logged)*/
+				#cuerpo article#bepartdiscution .box-post.nologged #avatar img{
+					display: none;
+				}
+				#cuerpo article#bepartdiscution .box-post.nologged #comment{
+					width: 100%;
+				}
+				#cuerpo article#bepartdiscution .box-post.nologged #comment>div:first-child h5>i{
+					display: inline-block;
+				}

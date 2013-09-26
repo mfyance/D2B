@@ -4,6 +4,14 @@
 	$(document).on('ready', init);
 	
 	function init(){
+        $("html,body").css("display", "none");            
+        $("html,body").fadeIn(800);
+
+        // Not action in main logo
+        $('#inicio.nologged h1>a').click(function(e){
+            e.preventDefault();
+        });
+        
         // Go to top
         var irTop = $('#gototop');
         $(irTop).hide();
@@ -37,9 +45,9 @@
 		
 		// Hover animated css3
 		$('.butpublic').hover(
-	        function(){ $(this).children().addClass('bounceIn') },
-	        function(){ $(this).children().removeClass('bounceIn') }
-		);
+            function(){ $(this).children().addClass('bounceIn') },
+            function(){ $(this).children().removeClass('bounceIn') }
+        );       
 		$('.butlike div, .like').hover(
             function(){ $(this).children().addClass('bounceIn') },
             function(){ $(this).children().removeClass('bounceIn') }
@@ -52,10 +60,15 @@
 	        function(){ $(this).children().addClass('rollIn') },
 	        function(){ $(this).children().removeClass('rollIn') }
 		);
-		$('.butshare').hover(
+		$('.butshare, .butconfirm').hover(
 	        function(){ $(this).children().addClass('fadeIn') },
 	        function(){ $(this).children().removeClass('fadeIn') }
 		);
+        // Update info
+        $('.butupdate, .butregister, .butrate').on('click', function(){
+            $('.success').addClass('bounceIn');
+            $('.success').css('visibility', 'visible');
+        }); 
 
 		// Limited (Read more)
   		$('.text-limited p').each(function(){     
@@ -113,6 +126,11 @@
             });
         });
 
+        // Play Video
+        $('.play').on('click', function(){
+            $(this).next().trigger('click');
+        });
+      
 	}
     function toHead(e){
         e.preventDefault();
@@ -121,6 +139,7 @@
         }, 2000);
         return false;
     }   
+    
    
 })(jQuery);
 

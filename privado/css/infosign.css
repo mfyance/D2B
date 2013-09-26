@@ -1,0 +1,243 @@
+#infosign,
+#infosign div,
+#infosign section,
+#infosign article,
+#infosign iframe,
+#infosign button{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;	
+}	
+section#cuerpo{
+	width: 100%;
+	background: #f7f7f7;
+}
+	section#cuerpo .title{
+		width: 100%;
+		text-align: center;
+		margin: 50px 0 10px 0;
+	}
+		section#cuerpo .title h2{
+			font: 55px vevey;
+			color: #623a8b;
+			letter-spacing: 4px
+		}
+		section#cuerpo .title p{
+			font:20px calibri;
+			color: #666666;
+		}
+	article#explain{
+		width: 100%;
+		max-width: 1000px;
+		margin: 60px auto;
+	}
+		article#explain .titulo{
+			text-align: center;
+			width: 100%;
+		}
+			article#explain h3{
+				font: 55px vevey;
+				letter-spacing: 3px;
+				color: #623a8b;			
+			}
+			article#explain em{
+				color: #666666;
+				font:20px calibri;			
+			}
+
+		article#explain .mytips{
+			max-width: 1000px;
+			min-width: 1000px;
+			width: 100%;
+			margin-top:50px;
+			white-space: nowrap;
+		}
+			article#explain .mytips .tips{
+				width: 25%;
+				float: left;
+				white-space: normal;				
+			}
+				article#explain .mytips .tips .circle{
+					width: 100%;
+					max-width: 215px;
+					height: 215px;
+					border-radius: 215px;
+					border: 6px solid #e2dfe6;
+					position: relative;
+					margin: 0 auto;
+				}
+					article#explain .mytips .tips:nth-child(1) .circle.retailer{
+						padding-left: 36px;
+						padding-top: 40px
+					}
+					article#explain .mytips .tips:nth-child(2) .circle.retailer{
+						padding-left: 64px;
+						padding-top: 47px;
+					}
+					article#explain .mytips .tips:nth-child(3) .circle.retailer{
+						padding-left: 54px;
+						padding-top: 45px;
+					}
+					article#explain .mytips .tips:nth-child(4) .circle.retailer{
+						padding-left: 55px;
+						padding-top: 51px;
+					}
+
+
+				article#explain .mytips .tips .circle2{
+					width: 100%;
+					max-width: 80px;
+					height: 80px;
+					position: absolute;
+					bottom: -24px;
+					right: 0px;
+				}
+				article#explain .mytips .tips .info{
+					width: 100%;
+					max-width: 215px;							
+					margin: 30px auto;
+				}
+					article#explain .mytips .tips .info p{
+						font: 17px calibri;	
+						color: #333333;
+					}
+
+	article#bottom-gallery{
+		width: 100%;
+		max-width: 1000px;
+		margin: 0 auto;
+		margin-bottom: 10%;
+	}			
+	
+		article#bottom-gallery .titulo{
+			text-align: center;
+			width: 100%;
+		}
+			article#bottom-gallery h4{
+				font: 43px vevey;
+				letter-spacing: 3px;
+				color: #623a8b;			
+			}
+		article#bottom-gallery .beneficity{
+			margin-top: 30px;
+		}
+		article#bottom-gallery .gallery{
+			width: 100%;
+			max-width: 430px;
+			margin-top: 20px;
+			position: relative;
+			margin: 5% auto;
+		}
+			article#bottom-gallery .gallery .mac{
+				position: absolute;
+				top: -20px;
+				left: -39px;
+				width: 100%;
+				height: 100%;
+			}
+				article#bottom-gallery .gallery .mac img{
+					width: 118%;
+				}
+				article#bottom-gallery .gallery .mac>div{
+					margin: 0 auto;
+					width: 100%;					
+				}
+			article#bottom-gallery .gallery .gall-infosign{
+				width: 100%;
+			}
+				article#bottom-gallery .gallery .myarrow-1.next{
+					position: absolute;
+					right: -140px;
+					bottom: 60px;
+				}
+				article#bottom-gallery .gallery .myarrow-1.prev{
+					position: absolute;
+					left: -142px;
+					bottom: 60px;
+				}
+					article#bottom-gallery .gallery .myarrow-1.prev span{
+						-webkit-transform: rotate(225deg);
+						-moz-transform: rotate(225deg);
+						-ms-transform: rotate(225deg);
+						-o-transform: rotate(225deg);
+						transform: rotate(225deg);
+						margin-left: 18px
+					}
+				
+				article#bottom-gallery .gallery .bx-next{
+					position: absolute;
+					bottom: 60px;
+					right: -140px;
+					width: 55px;
+					height: 55px;
+					text-indent: -9999px;
+					z-index: 5;
+					background: transparent;
+				}
+				article#bottom-gallery .gallery .bx-prev{
+					position: absolute;
+					bottom: 60px;
+					left: -140px;
+					width: 55px;
+					height: 55px;
+					text-indent: -9999px;
+					z-index: 5;
+					background: transparent;
+				}
+		/*Wholesaler		*/
+		article#explain .points{
+			width: 100%;
+			padding: 0 16px;		
+		}
+			article#explain .points .row{
+				width: 100%;
+				margin: 50px 0;
+				position: relative;
+			}
+			article#explain .points .row:first-child{
+				margin-top: 0;
+			}
+				article#explain .points .row h4{
+					font: 42px vevey;
+					letter-spacing: 4px;
+					color: #7242a3;	
+				}
+				article#explain .points .row .content{
+					padding-left: 95px;
+				}
+				article#explain .points .row span{
+					position: absolute;
+					left: 0;
+					top: -15px;
+				}
+				article#explain .points .row .content ul{
+					margin-top: 20px;
+				}
+
+				article#explain .mytips .tips:nth-child(1) .circle.wholesaler{
+					padding-left: 64px;
+					padding-top: 46px;
+				}
+				article#explain .mytips .tips:nth-child(2) .circle.wholesaler{
+					padding-left: 54px;
+					padding-top: 47px;
+				}
+				article#explain .mytips .tips:nth-child(3) .circle.wholesaler{
+					padding-left: 61px;
+					padding-top: 45px;
+				}
+				article#explain .mytips .tips:nth-child(4) .circle.wholesaler{
+					padding-left: 53px;
+					padding-top: 51px;
+				}
+		.txt-bottom h5{
+			font: 43px vevey;
+			letter-spacing: 3px;
+			color: #623a8b;
+			text-align: center;
+		}

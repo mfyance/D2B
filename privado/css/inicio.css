@@ -31,38 +31,7 @@ section#cuerpo{
 	.logged #cuerpo #second{
 		display: none !important;
 	}	
-	.nologged #cuerpo #second{
-		width: 720px;
-		height: auto;
-		background: transparent;		
-		margin: 0 auto;		
-	}
-		.nologged  #cuerpo #second #video{
-			width: 100%;
-			height: auto;
-		}
-			.nologged  #cuerpo #second #video iframe{
-				border: 3px solid #533b69;
-				width: 720px;
-				height: 430px;
-				box-shadow: 0px 3px 4px rgba(32, 32, 32, 0.75);
-			}
-		.nologged  #cuerpo #second .but{
-			margin-top: 5px;
-			width: 100%;
-			margin-bottom: 30px;
-		}
-			.nologged  #cuerpo #second a{
-				text-decoration: none;
-				display: block;
-				width: 310px;
-			}					
-			.nologged  #cuerpo #second .but a:first-child{
-				float: left;
-			}
-			.nologged  #cuerpo #second .but a:last-child{
-				float: right;
-			}		
+		
 	#cuerpo #collection{
 		width: 100%;
 		max-width: 1300px;

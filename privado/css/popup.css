@@ -1,0 +1,122 @@
+#login,
+#login div,
+#login section,
+#login article,
+#login iframe,
+#login button{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;	
+}	
+section#cuerpo{
+	width: 100%;
+	max-width: 340px;
+	margin:0 auto;
+	background: transparent;
+}
+	#cuerpo .main{
+		width: 100%;
+		margin: 0 auto;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;		
+	}
+	#cuerpo .main .titulo h2{
+		font: 50px vevey;
+		color: #49335e;
+		text-align: center;
+		word-spacing: 2px;
+		letter-spacing: 2px;
+	}	
+	/*Normal pass*/
+	#cuerpo .main{
+		width: 100%;
+		height: auto;
+	}
+		#cuerpo .main .row{
+			position: relative;
+			float: left;
+			padding: 15px 0;
+		}
+		#cuerpo .main .remenberme{
+			padding: 12px 0 !important;
+		}
+			#cuerpo .main .remenberme>div{
+				float: left;
+			}
+			#cuerpo .main .remenberme>div:first-child{
+				width: 45%;
+			}
+			#cuerpo .main .remenberme>div:last-child{
+				width: 55%;
+			}
+		#cuerpo .main #mail-ico{
+			position: absolute;
+			bottom: 31px;
+			left: 11px;
+		}
+		#cuerpo .main .titulo,
+		#cuerpo .main .row{
+			width: 100%;		
+		}
+			#cuerpo .main .row label,
+			#cuerpo .main .row span{
+				font:19px calibrili, calibri;
+				color: #634c78;
+			}
+			#cuerpo .main .row input{
+				width: 100%;
+				margin-bottom: 7px;
+			}
+			#cuerpo .main .row input#mail{
+				padding-left: 42px !important;
+			}
+			#cuerpo .main .row input#mail:focus+i{
+				background-position: -35px -729px;
+			}
+			#cuerpo .main .row input#mail.error~i{
+				background-position: -96px -729px;
+			}
+			#cuerpo .main .row span{
+				margin-left: 5px !important;
+				font-size: 16px !important;
+				line-height: 1.7em;
+			}
+		#cuerpo .main .gotoregister{
+			color: #634c78;
+			font: 18px calibrili,calibri;
+			margin-bottom: 30px;
+		}
+			#cuerpo .main .gotoregister>div:first-child{
+				width: 67%;
+				float: left;
+				padding-top: 5px;
+			}
+			#cuerpo .main .gotoregister>div:last-child{
+				width: 33%;
+				float: left;
+				text-align: right;
+			}
+		/*frm Recover*/
+		#cuerpo form#frm-recover{
+			width: 100%;
+		}
+			#cuerpo form#frm-recover p{
+				color: #646464;
+				text-align: justify;
+				font: 17px calibrili, calibri;
+				line-height: 1em;
+			}
+			#cuerpo form#frm-recover p>em{
+				color: #693995;
+			}
+
+		/*Go to frm-recover*/
+		#showformrecover a{
+			display: none !important;
+		}

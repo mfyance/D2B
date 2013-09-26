@@ -1,4 +1,13 @@
 @font-face{
+	font-family: "xtreemMedium";
+	src: url('../fuentes/xtreem/xtreem_medium.eot') format('eot'),
+	url('../fuentes/xtreem/xtreem_medium.woff') format('woff'),
+	url('../fuentes/xtreem/xtreem_medium.ttf') format('truetype'),
+	url('../fuentes/xtreem/xtreem_medium.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
 	font-family: "vevey";
 	src: url('../fuentes/vevey/vevey.eot') format('eot'),
 	url('../fuentes/vevey/vevey.woff') format('woff'),

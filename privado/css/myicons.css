@@ -138,6 +138,12 @@
 	height: 21px;
 	background-position: -5px -319px;	
 }
+.myicon-helper-2{
+	width: 22px;
+	height: 21px;
+	background-position: -7px -926px;
+}
+	
 /*profile*/
 .myicon-menulog-1{
 	width: 36px;
@@ -186,7 +192,7 @@
 .myicon-delete{
 	width: 26px;
 	height: 28px;
-	background-position: -6px -470px;
+	background-position: -54px -933px;
 }
 .myicon-settings{
 	width: 31px;
@@ -338,7 +344,7 @@
 .myicon-for-helper{
 	width: 30px;
 	height: 30px;
-	background-position:-109px -134px;
+	background-position:-345px -12px;
 }
 .myicon-for-tags{
 	width: 16px;
@@ -355,12 +361,14 @@
 	height: 15px;	
 	background-position:-57px -59px;
 }
+/*Pop up - Login*/
+.myicon-email{
+	width: 25px;
+	height: 17px;
+	background-position:-65px -729px;
+}
+	
 
-	
-	
-	
-	
-	
 /*Arrow*/
 .myicon-arrow-down1{	
 	width: 20px;
@@ -379,9 +387,203 @@
 }
 
 	
+/*Register*/
+.myicon-reg-designer{
+	width: 30px;
+	height: 30px;	
+	background-position: -956px -103px;
+}
+.myicon-reg-wholesaler{
+	width: 37px;
+	height: 29px;	
+	background-position:-952px -68px;
+}
+.myicon-reg-retailer{
+	width: 43px;
+	height: 21px;
+	background-position: -817px -103px;
+}
+.myicon-reg-arrow{
+	width: 15px;
+	height: 12px;
+	background-position: -831px -135px;
+}
+.myicon-reg-register{	
+	width: 20px;
+	height: 21px;
+	background-position:-57px -761px;
+}
+.myicon-reg-addaccount{	
+	width: 29px;
+	height: 29px;
+	background-position:-49px -787px;
+}
+
+/*Qualification	*/
+.myicon-rate{
+	background-position: -50px -829px;
+	width: 22px;
+	height: 22px;
+}
+/*Video*/
+.myicon-play{
+	background-position:-748px -211px;
+	width: 66px;
+	height: 67px;
+}
+	
+/*Info Sign*/
+.myicon-inf-1{
+	background-position:-876px -149px;
+	width: 121px;
+	height: 129px;
+}
+.myicon-inf-2{
+	background-position:-912px -287px;
+	width: 80px;
+	height: 107px;
+}
+.myicon-inf-3{
+	background-position:-891px -406px;
+	width: 107px;
+	height: 112px;
+}
+.myicon-inf-4{
+	background-position:-898px -533px;
+	width: 101px;
+	height: 98px;
+}
+.myicon-inf2-1{
+	background-position:-916px -646px;
+	width: 84px;
+	height: 83px;
+}
+.myicon-inf2-2{
+	background-position:-917px -736px;
+	width: 83px;
+	height: 83px;
+}
+.myicon-inf2-3{
+	background-position:-916px -825px;
+	width: 84px;
+	height: 83px;
+}
+.myicon-inf2-4{
+	background-position:-916px -914px;
+	width: 83px;
+	height: 83px;
+}
+
+/*myicon-wholesaler	*/
+	
+.myicon-inf-w-1{
+	background-position:-790px -406px;
+	width: 81px;
+	height: 96px;
+}
+.myicon-inf-w-2{
+	background-position:-780px -535px;
+	width: 100px;
+	height: 97px;
+}
+	
+.myicon-inf-w-3{
+	background-position:-721px -764px;
+	width: 84px;
+	height: 99px;
+}
+.myicon-inf-w-4{
+	background-position:-714px -888px;
+	width: 101px;
+	height: 97px;
+}
+
+.myicon-point-1{
+	background-position:-829px -654px;
+	width: 78px;
+	height: 70px;
+}
+.myicon-point-2{
+	background-position:-831px -745px;
+	width: 78px;
+	height: 69px;
+}
+.myicon-point-3{
+	background-position:-829px -832px;
+	width: 78px;
+	height: 70px;
+}
+.myicon-point-4{
+	background-position: -831px -925px;
+	width: 79px;
+	height: 69px;
+}
+
+/*My orders*/
+.myicon-show-video{
+	background-position:-4px -857px;
+	width: 24px;
+	height: 24px;
+}
+.myicon-or-tag{
+	background-position:-55px -860px;
+	width: 22px;
+	height: 18px;
+}
+.myicon-or-user{
+	background-position: -0px -191px;
+	width: 19px;
+	height: 19px;
+}
+.myicon-or-rate{
+	background-position: -127px -829px;
+	width: 22px;
+	height: 22px;
+}
+.myicon-or-delivery{
+	background-position: 0 -825px;
+	width: 35px;
+	height: 28px;
+}
+.myicon-or-check{
+	background-position: -84px -906px;
+	width: 25px;
+	height: 20px;
+}
+.myicon-or-message{
+	background-position: -2px -889px;
+	width: 32px;
+	height: 26px;
+}	
+.myicon-or-avatar{
+	background-position: -657px -942px;
+	width: 53px;
+	height: 54px;
+}
+.myicon-or-avatar-me{
+	background-position: -596px -943px;
+	width: 53px;
+	height: 54px;
+}	
+.myicon-reply{
+	background-position:-91px -884px;
+	width: 16px;
+	height: 15px;
+}
+.myicon-reply-post{
+	background-position: -7px -953px;
+	width: 22px;
+	height: 21px;
+}
+.myicon-price{
+	background-position: -88px -860px;
+	width: 22px;
+	height: 18px;
+}
+		
 	
 	
-
-
+	
+	
 	
 	

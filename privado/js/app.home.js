@@ -2,14 +2,10 @@
 	"use strict";
 	$(document).on('ready', init);
 	
-	function init(){
-		
+	function init(){	
+
 		// Placeholder
-		$('input, textarea').placeholder();
-		// first slider      
-		$('.bxslider').bxSlider();
-		// cambiar color		
-		$('.bx-next').hover(cambiar, nocambiar);
+		$('input, textarea').placeholder();		
 		
 		// isotope
 		var $container = $('#col-second');    
@@ -17,11 +13,7 @@
 			$container.isotope({
 			  itemSelector : '.photo'
 			});
-		}); 
-
-		// Ranking
-		$.fn.raty.defaults.path = 'privado/imagenes/general';
-		$('.ranking').raty();		
+		}); 	
 		
 		//Inview (show and hidden objects)
 		if (document.all && document.querySelector && !document.getElementsByClassName){
@@ -66,23 +58,6 @@
 			});
 		}		
 	}	
-	function cambiar(){
-		$('div.arrow').stop().css({
-			background: '#634c78'
-		});
-		$('div.arrow span').stop().css({
-			'border-top-color': '#fff',
-			'border-right-color': '#fff'
-		});
-	}
-	function nocambiar(){
-		$('div.arrow').stop().css({
-			'background': '#fff'
-		});
-		$('div.arrow span').stop().css({
-			'border-top-color': '#634c78',
-			'border-right-color': '#634c78'
-		});
-	}	
+		
 })(jQuery);
 

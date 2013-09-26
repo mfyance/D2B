@@ -11,6 +11,9 @@
 		
 		// Pop ups to iamges
     	$('.fancybox').fancybox();
+    	// showe opop ups [my orders]
+    	$('.show-request').fancybox();
+
   		
   		// Banner Bottom Designer
   		$('.bxslider').bxSlider({
@@ -169,13 +172,7 @@
 			var contenedor = this.value;
 			$("#new-addimages4").val(contenedor);
 		});		
-
-		// Update info
-		$('.butupdate').on('click', function(){
-			$('.profile-update').addClass('bounceIn');
-			$('.profile-update').css('visibility', 'visible');
-		});	
-
+		
 		// Show my Settings		
 		$('#mysettings').hide();
 		$('#editmyaccount').on('click',function(e){
@@ -195,14 +192,8 @@
 		    e.preventDefault();
 		});
 
-		// Placeholder to Inputs Tags
-		$('#tags4search>li:first input').attr('placeholder','Example: lorenipsum , fashion');
-		$('#tags4search').on('click', function(){
-			$('#tags4search>li:first input').attr('placeholder','');
-		});
-
 		// Active Tags inputs
-		 $('#tags4search').tagit();
+		$('#tags4search').tagit();
 
 		// Clone input
 		$("input#username").keyup(
@@ -227,8 +218,7 @@
 		$('#frm-setting').validate({
 			rules: {
 				username: {
-					required: true,
-					regex:"^[a-zA-Z\u00E1\u00E9\u00ED\u00F3\u00FA \u00C1\u00C9\u00CD\u00D3\u00DA \u00F1\u00D1]+$"			
+					required: true						
 				},
 				password: {
 					required: true,
@@ -274,8 +264,7 @@
 			},
 			messages: {
 				username: {
-					required: 'Lorem ipsum',
-					regex: "Only letters"				
+					required: 'Lorem ipsum'						
 				},
 				password: {
 					required: 'Lorem ipsum',
@@ -320,6 +309,48 @@
 				}
 			}
 		});
+
+		// My Orders
+		$('.myorders dl dd').hide();
+		$('.myorders dl dt').click(function(){			
+
+			if ($(this).hasClass('active')) {
+			   $(this).removeClass('active');
+			   $(this).next().animate({
+			   		opacity : '0'
+			   },400);
+			   $(this).next().slideUp('slow');
+			} else {
+			   $('dl dt').removeClass('active');
+			   $(this).addClass('active');
+			   $('dl dd').slideUp();
+			   $(this).next().slideDown('fast');
+			   $(this).next().animate({
+			   		opacity : '1'
+			   },400);
+			}
+		});
+		$('#hide-box').hide();
+		$('#show-messages').click(function(){
+			if ($(this).hasClass('active')) {
+				$(this).removeClass('active');
+				$(this).next().removeClass('fadeIn');			   
+			    $(this).next().slideUp('fast');
+			    
+			}else{
+				$(this).removeClass('active');
+				$(this).addClass('active');
+				$(this).next().slideDown('fast');
+				$(this).next().addClass('fadeIn');
+				
+			}
+		});
+
+		// Create a COllection
+		$('#createcollection').on('click', function(){
+			
+		});
+
 	}		
 
 	function viewPosts(){

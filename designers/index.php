@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="privado/css/jquery.bxslider.css">
 	<link rel="stylesheet" href="privado/css/isotope.css">
 	<link rel="stylesheet" href="privado/css/inicio.css">
-	<title>D2B's Website</title>
+	<title>Home Designer</title>
 </head>
 <body>
 	<div id="inicio" class="estructura logged">
@@ -550,6 +550,7 @@
 	<script src="privado/js/bootstrap-select.js"></script>
 	<!--  main slider  -->
 	<script src="privado/js/jquery.bxslider.min.js"></script>
+	<script src="privado/js/app.bxslider.js"></script>
 	<!--  Isotope images  -->
 	<script src="privado/js/jquery.isotope.min.js"></script>
 	<!--  Ranking  -->
@@ -563,5 +564,6 @@
 	<!--  My apps  -->
 	<script src="privado/js/app.js"></script>
 	<script src="privado/js/app.home.js"></script>
+	<script src="privado/js/app.rate.js"></script>
 </body>
 </html>

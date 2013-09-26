@@ -3,13 +3,14 @@
 <head>
 	<?php include 'privado/includes/seo.php' ;?>	
 	<link rel="stylesheet" href="privado/css/jquery.bxslider.css">
+	<link rel="stylesheet" href="privado/css/fancybox.css">
 	<link rel="stylesheet" href="privado/css/isotope.css">
 	<link rel="stylesheet" href="privado/css/inicio.css">
 	<title>D2B's Website</title>
 </head>
 <body>
 	<div id="inicio" class="estructura nologged">
-		<?php include 'privado/includes/header.php' ;?>
+		<?php include 'privado/includes/header-home.php' ;?>
 		<!-- bxslider -->
 		<section id="cuerpo" class="cleaner">
 			<div id="first" class="ad-slider cleaner">
@@ -41,9 +42,17 @@
 				</ul>
 				<div class="arrow"><span></span></div>				
 			</div>
-			<div id="second" class="cleaner">
+			<div id="mainvideo" class="cleaner">
 				<div id="video" class="cleaner">
-					<iframe src="//www.youtube.com/embed/E5TpQV0o1dc" frameborder="0" allowfullscreen></iframe>
+					<div class="cleaner play"><i class="myicon-play"></i></div>
+					<a id="showvideo" class="fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+						<img src="privado/imagenes/general/banner-video.jpg" alt="xplain">
+					</a>
+					<div class="cleaner mytext">
+						<h5>We</h5>
+						<h5>explain you</h5>
+						<em>how it works</em>
+					</div>
 				</div>
 				<div class="but cleaner">
 					<a href="register.php" class="cleaner"><button class="but-type1" type="button">register now</button></a>
@@ -550,7 +559,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- -- -->
+			<!-- -->
 			<div class="pag-seasson cleaner">
 				<div class="cleaner"></div>
 				<div class="cleaner">
@@ -577,7 +586,7 @@
 	<script src="privado/js/bootstrap.js"></script>
 	<script src="privado/js/bootstrap-select.js"></script>
 	<!--  main slider  -->
-	<script src="privado/js/jquery.bxslider.min.js"></script>
+	<script src="privado/js/jquery.bxslider.min.js"></script>	
 	<!--  Isotope images  -->
 	<script src="privado/js/jquery.isotope.min.js"></script>
 	<!--  Ranking  -->
@@ -586,10 +595,20 @@
 	<script src="privado/js/jquery.easing.1.3.js"></script>
 	<script src="privado/js/jquery.inview.min.js"></script>
 	<script src="privado/js/jquery.transit.js"></script>
+	<!-- Fancybox -->
+	<script src="privado/js/fancybox.js"></script>
 	<!-- Placeholder -->
 	<script src="privado/js/placeholder.js"></script>
 	<!--  My apps  -->
+	<!-- [1]App General -->
 	<script src="privado/js/app.js"></script>
+	<!-- [2]App to this page -->
 	<script src="privado/js/app.home.js"></script>
+	<!-- [3]App to Login (popup) -->
+	<script src="privado/js/app.popup.js"></script>
+	<!-- [4]App to Slider -->
+	<script src="privado/js/app.bxslider.js"></script>
+	<!-- Rating -->
+	<script src="privado/js/app.rate.js"></script>	
 </body>
 </html>

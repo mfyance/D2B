@@ -43,7 +43,7 @@
 					</div>
 				</div>
 				<div class="but cleaner">
-					<button type="button" id="createcollection"><i class="myicon-sky"></i>create a collection</button>
+					<a href="createcollection.php"><button type="button"><i class="myicon-sky"></i>create a collection</button></a>
 				</div>				
 			</article>
 			<article id="ajax-menu" class="cleaner">
@@ -863,7 +863,7 @@
 									</div>
 								</div>
 						    </div>
-						</div>
+						</div>				
 					</div>
 					<div class="tabbertab">
 						<h2>my collections</h2>
@@ -1892,7 +1892,7 @@
 									<div class="order-des cleaner">
 										<div class="row cleaner">
 											<div class="cleaner"><i class="myicon-calendar"></i>20/11/13</div>
-											<div class="cleaner"><i class="myicon-helper"></i><a class="show-request" href="#req-designer">You have a bether price request</a></div>
+											<div class="cleaner"><i class="myicon-helper"></i><a class="show-request" href="#req-wholesaler">You have a bether price request</a></div>
 										</div>
 										<div class="myorders  cleaner">
 											<dl>
@@ -1923,7 +1923,7 @@
 											</dl>
 										</div>
 										<div class="row buts nopad cleaner">
-											<div class="cleaner"><a <a class="show-request" href="#req-designer"><button type="button"><i class="myicon-or-tag"></i>reset this price</button></a></div>
+											<div class="cleaner"><a <a class="show-request" href="#req-wholesaler"><button type="button"><i class="myicon-or-tag"></i>reset this price</button></a></div>
 											<div class="cleaner"><button type="button"><i class="myicon-or-tag"></i>price: <span>$200.00</span></button></div>
 										</div>
 									</div>
@@ -2093,32 +2093,7 @@
 									<div class="next cleaner"><a href="#">next</a></div>
 								</div>					
 							</div>
-							<!-- Pop up Designer -->
-							<div id="req-designer" class="request">
-								<div class="cleaner">
-									<h5>REQUEST for a  BETHER PRICE</h5>
-									<div class="subti cleaner">
-										<i class="myicon-helper"></i>
-										<p>Massa risus nunc! Nisi et et mus lectus risus auctor eu tincidunt adipiscing adipiscing mattis? </p>
-									</div>
-									<div class="price cleaner">
-										<p>total price :</p>
-										<div class="cleaner">
-											<em><i class="myicon-price"></i>price:</em><span> $200.00</span>
-										</div>
-									</div>
-									<div class="price  cleaner">
-										<p>The offer :</p>
-										<div class="bg cleaner">
-											<em><i class="myicon-price"></i>price:</em><span> $200.00</span>
-										</div>
-									</div>
-								</div>
-								<div class="buts cleaner">
-									<button type="button" class="but-type1"><i class="myicon-delete"></i>deal</button>
-									<button type="button" class="but-type1"><i class="myicon-delete"></i>no deal</button>
-								</div>
-							</div>
+							
 							<!-- Pop up Wholesaler -->
 							<div id="req-wholesaler" class="request">
 								<div class="cleaner">
@@ -2135,21 +2110,16 @@
 									</div>
 									<div class="price  cleaner">
 										<p>The offer :</p>
-										<div class="bg cleaner">
-											<em><i class="myicon-price"></i>price:</em><span> $200.00</span>
+										<div class="cleaner">
+											<em><i class="myicon-price"></i>price:</em><span>$</span><input type="text" value="200.00">
 										</div>
 									</div>
 								</div>
-								<div class="buts cleaner">
-									<button type="button" class="but-type1"><i class="myicon-delete"></i>deal</button>
-									<button type="button" class="but-type1"><i class="myicon-delete"></i>no deal</button>
+								<div class="buts2 cleaner">
+									<button type="button" class="but-type1"><i class="myicon-delete"></i>i want a bether price</button>
 								</div>
 							</div>
 						</div>				
-					</div>
-					<div class="tabbertab">
-						<h2>talk to d2b</h2>
-						<p>Tab 3 content.</p>
 					</div>
 					<div class="tabbertab">
 						<h2>talk to d2b</h2>

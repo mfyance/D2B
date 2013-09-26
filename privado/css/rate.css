@@ -1,0 +1,234 @@
+#rate div,
+#rate ul,
+#rate p{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+section#cuerpo{
+	width: 1000px;
+	margin: 0 auto;
+	background: transparent;
+}
+	#cuerpo article.main{
+		width: 100%;
+		margin: 60px 0 20px 0;		
+		padding-bottom: 10px;
+	}
+		#cuerpo article.main .maintitulo{
+			width: 100%;
+			padding-bottom: 10px;
+			border-bottom: 1px solid #e4e4e4;
+		}
+		#cuerpo article.main .content{
+			width: 100%;
+			border-top: 1px solid #fff;
+			padding-top: 10px;
+		}
+			#cuerpo article.main .content p{
+				font: 17px calibrili, calibri;
+				color: #6e6b6b;
+				text-align: justify;
+			}
+				#cuerpo article.main .content p>span{
+					color: #653a8f;
+				}
+		/*[2]Content 2*/
+		#cuerpo article.main .content2{
+			width: 100%;
+			background: #e7e7e7;
+			padding: 20px;
+			margin-top: 20px;
+		}
+			#cuerpo article.main .content2 .pic{
+				width: 16%;
+				float: left;
+				margin-right: 2%;
+			}
+				#cuerpo article.main .content2 .pic img{
+					width: 100%;
+					box-shadow: -2px -2px 0px #b3b2b1;
+				}
+			#cuerpo article.main .content2 .info{	
+				width: 82%;
+				float: left;
+			}
+				#cuerpo article.main .content2 .info .info-top{
+					width: 100%;
+				}
+					/*MAin Dates*/
+					#cuerpo article.main .content2 .info .info-top .main-dates{
+						width: 42%;
+						float: left;
+					}					
+						#cuerpo article.main .content2 .info .info-top .main-dates .user-rate{
+							padding-top: 10px;
+							border-top: 1px solid #fff;
+						}
+						#cuerpo article.main .content2 .info .info-top .main-dates .user-date,	
+						#cuerpo article.main .content2 .info .info-top .main-dates .user-rate{
+							width: 100%;
+						}
+							#cuerpo article.main .content2 .info .info-top .main-dates .user-rate>div{
+								float: left;
+								width: 30%
+							}
+								#cuerpo article.main .content2 .info .info-top .main-dates .user-rate p{
+									color: #515151;
+									font: 17.5px calibri;
+								}
+									#cuerpo article.main .content2 .info .info-top .main-dates .user-rate p>i{
+										vertical-align: -1px;
+									}
+								#cuerpo article.main .content2 .info .info-top .main-dates .share{
+									width: 100%;									
+								}
+									#cuerpo article.main .content2 .info .info-top .main-dates .share>div{
+										display: inline-block;
+									}
+									#cuerpo article.main .content2 .info .info-top .main-dates .share>div:nth-child(1),
+									#cuerpo article.main .content2 .info .info-top .main-dates .share>div:nth-child(2){
+										width: 60px;
+									}
+									#cuerpo article.main .content2 .info .info-top .main-dates .share>div:nth-child(1){
+										border-right: 1px solid #c7c7c7;
+									}
+									#cuerpo article.main .content2 .info .info-top .main-dates .share>div:nth-child(2){
+										border-left: 1px solid #e1e1e1;
+										text-align: right;
+									}
+									#cuerpo article.main .content2 .info .info-top .main-dates .share>div:nth-child(3){
+										float: right;
+									}
+					/*Second Dates*/
+					#cuerpo article.main .content2 .info .info-top .second-dates{
+						width: 58%;
+						float: left;
+						padding-left: 10%;
+					}
+						#cuerpo article.main .content2 .info .info-top .second-dates .box{
+							width: 100%;
+							max-width: 250px;
+							float: right;
+						}
+							#cuerpo article.main .content2 .info .info-top .second-dates .box p{
+								font: 17px calibrili, calibri;
+								color: #666666;
+								margin-bottom: 7px;
+							}
+								#cuerpo article.main .content2 .info .info-top .second-dates .box p>span{
+									color: #6e4c8c;
+									padding-right: 4px;
+								}
+
+				#cuerpo article.main .content2 .info .info-bottom{
+					width: 100%;
+					padding: 15px 0;
+				}
+					#cuerpo article.main .content2 .info .info-bottom p{
+						font:17px calibri;
+						color: #5b5b5b;
+					}
+					#cuerpo article.main .content2 .info .info-bottom .btn-text-limited{
+						color: #653a8f;
+						text-decoration: underline;
+						font: 17px calibri;
+					}
+
+			#cuerpo article.main .content2 .user-date{
+				padding-bottom: 10px;
+				border-bottom: 1px solid #d8d8d8;	
+
+			}
+			#cuerpo article.main .content2 .user-date h3{
+				color: #6a5083;
+				text-transform: uppercase;
+				font: 40px vevey;
+				letter-spacing: 3px;
+			}
+			#cuerpo article.main .content2 .user-date p{
+				color: #666666;
+				font: 17px calibri, calibrili;
+			}
+
+		/*[3]Content 3*/
+		#cuerpo article.main .content3{
+			width: 100%;
+			max-width: 850px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+			#cuerpo article.main .content3 h3{
+				font:30px calibri;
+				color: #653a8f;
+			}
+				#cuerpo article.main .content3 h3>strong{
+					font-weight: bold;
+					font-size: 37px !important;
+				}
+			#cuerpo article.main .content3 .tit-rate{
+				width: 100%;
+				margin: 35px 0;
+			}
+			#cuerpo article.main .content3 .rating{			
+				width: 100%;
+				margin-bottom: 30px;
+			}
+				#cuerpo article.main .content3 .rating>div{
+					display: table-cell;
+					vertical-align: middle;
+					padding: 0 10px;
+				}
+				#cuerpo article.main .content3 .rating>div:nth-child(1){
+					width: 35%;
+				}
+					#cuerpo article.main .content3 .rating>div:nth-child(1) em{
+						color: #533b6a;
+						font:22px calibri;
+						font-weight: bold;
+						text-align: justify;
+						position: relative;
+					}
+						#cuerpo article.main .content3 .rating>div:nth-child(1) em:before{
+							content: '';
+							background: url("../imagenes/general/sprite.png") -16px -794px no-repeat;
+							width: 4px;
+							height: 5px;
+							position: absolute;
+							top: 11px;
+							left: -10px;
+						}
+
+					#cuerpo article.main .content3 .rating>div:nth-child(1) em+p{
+						color: #565656;
+						font: 16px calibri;
+						text-align: justify;
+					}
+				#cuerpo article.main .content3 .rating>div:nth-child(2){
+					width: 30%;
+				}
+				#cuerpo article.main .content3 .rating>div:nth-child(3){
+					width: 35%;
+				}
+
+				#cuerpo article.main .content3 .rating .ranking2{
+					width: 100% !important;
+					max-width: 131px;
+					margin: 0 auto;
+				}
+				#cuerpo article.main .content3 .rating .score{
+					width: 95px;
+					height: 95px;
+					border-radius: 95px;
+					padding: 20px;
+					background: #fff;
+					border: 2px solid #673896;
+					color: #673896;
+					font: 40px calibri;
+					box-shadow: inset 3px 3px 0 #b2b2b2;
+				}
